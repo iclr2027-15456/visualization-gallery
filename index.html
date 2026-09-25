@@ -13,7 +13,7 @@
   .card { background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 12px; }
   .card .clip-label { font-size: 13px; color: #555; margin-bottom: 8px; word-break: break-word; }
   .clip-label b { color: #111; }
-  .row { display: flex; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+  .row { display: flex; gap: 8px; margin-bottom: 6px; }
   .vid-block { text-align: center; }
   .vid-block span { display: block; font-size: 11px; color: #777; margin-bottom: 2px; }
   video { width: 130px; height: 130px; background: #000; border-radius: 4px; }
@@ -33,10 +33,33 @@ async function main() {
   const grid = document.getElementById('grid');
   const subtitle = document.getElementById('subtitle');
   const keys = Object.keys(manifest);
+  const observer = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      const video = entry.target;
+      if (entry.isIntersecting && document.visibilityState === 'visible') {
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    }
+  }, { threshold: 0.25 });
+
+  document.addEventListener('visibilitychange', () => {
+    grid.querySelectorAll('video').forEach(video => {
+      if (document.visibilityState === 'hidden') video.pause();
+      else if (video.getBoundingClientRect().bottom > 0 && video.getBoundingClientRect().top < innerHeight) {
+        video.play().catch(() => {});
+      }
+    });
+  });
 
   function render(key) {
     const cfg = manifest[key];
     subtitle.textContent = `${cfg.title} — ${cfg.clips.length} clips`;
+    grid.querySelectorAll('video').forEach(video => {
+      observer.unobserve(video);
+      video.pause();
+    });
     grid.innerHTML = '';
     for (const clip of cfg.clips) {
       const card = document.createElement('div');
@@ -47,15 +70,18 @@ async function main() {
       label.innerHTML = `<b>Clip ${clip.idx}</b> — ${cfg.title} — ${clip.name}`;
       card.appendChild(label);
 
-      const row = document.createElement('div');
-      row.className = 'row';
-      row.appendChild(vidBlock('Egocentric RGB', `videos/${key}/${clip.files.rgb}`));
+      const rgbRow = document.createElement('div');
+      rgbRow.className = 'row';
+      rgbRow.appendChild(vidBlock('Egocentric RGB', `videos/${key}/${clip.files.rgb}`));
+      card.appendChild(rgbRow);
       for (const hand of cfg.hands) {
+        const row = document.createElement('div');
+        row.className = 'row';
         const label2 = cfg.hands.length > 1 ? (hand === 'left' ? 'L' : 'R') : '';
-        row.appendChild(vidBlock(`Tactile GT ${label2}`, `videos/${key}/${clip.files['gt_' + hand]}`));
         row.appendChild(vidBlock(`Tactile Gen ${label2}`, `videos/${key}/${clip.files['gen_' + hand]}`));
+        row.appendChild(vidBlock(`Tactile GT ${label2}`, `videos/${key}/${clip.files['gt_' + hand]}`));
+        card.appendChild(row);
       }
-      card.appendChild(row);
       grid.appendChild(card);
     }
   }
@@ -66,7 +92,8 @@ async function main() {
     const span = document.createElement('span');
     span.textContent = labelText;
     const v = document.createElement('video');
-    v.src = src; v.controls = true; v.preload = 'none'; v.loop = true; v.muted = true;
+    v.src = src; v.controls = true; v.preload = 'none'; v.loop = true; v.muted = true; v.playsInline = true;
+    observer.observe(v);
     wrap.appendChild(span); wrap.appendChild(v);
     return wrap;
   }
