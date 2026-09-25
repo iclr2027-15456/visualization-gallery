@@ -1,0 +1,3469 @@
+{
+  "egotouch_tactileonly": {
+    "title": "EgoTouch (tactile-only)",
+    "hands": [
+      "left",
+      "right"
+    ],
+    "clips": [
+      {
+        "idx": "0000",
+        "name": "Home_move_toolbox_20260314_103504_746_chunk0",
+        "files": {
+          "rgb": "0000_rgb.mp4",
+          "gt_left": "0000_gt_left.mp4",
+          "gen_left": "0000_gen_left.mp4",
+          "gt_right": "0000_gt_right.mp4",
+          "gen_right": "0000_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0001",
+        "name": "Home_move_toolbox_20260314_103516_678_chunk0",
+        "files": {
+          "rgb": "0001_rgb.mp4",
+          "gt_left": "0001_gt_left.mp4",
+          "gen_left": "0001_gen_left.mp4",
+          "gt_right": "0001_gt_right.mp4",
+          "gen_right": "0001_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0002",
+        "name": "Home_move_toolbox_20260314_103708_922_chunk0",
+        "files": {
+          "rgb": "0002_rgb.mp4",
+          "gt_left": "0002_gt_left.mp4",
+          "gen_left": "0002_gen_left.mp4",
+          "gt_right": "0002_gt_right.mp4",
+          "gen_right": "0002_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0003",
+        "name": "Home_move_toolbox_20260314_103719_955_chunk0",
+        "files": {
+          "rgb": "0003_rgb.mp4",
+          "gt_left": "0003_gt_left.mp4",
+          "gen_left": "0003_gen_left.mp4",
+          "gt_right": "0003_gt_right.mp4",
+          "gen_right": "0003_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0004",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk0",
+        "files": {
+          "rgb": "0004_rgb.mp4",
+          "gt_left": "0004_gt_left.mp4",
+          "gen_left": "0004_gen_left.mp4",
+          "gt_right": "0004_gt_right.mp4",
+          "gen_right": "0004_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0005",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk1",
+        "files": {
+          "rgb": "0005_rgb.mp4",
+          "gt_left": "0005_gt_left.mp4",
+          "gen_left": "0005_gen_left.mp4",
+          "gt_right": "0005_gt_right.mp4",
+          "gen_right": "0005_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0006",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk2",
+        "files": {
+          "rgb": "0006_rgb.mp4",
+          "gt_left": "0006_gt_left.mp4",
+          "gen_left": "0006_gen_left.mp4",
+          "gt_right": "0006_gt_right.mp4",
+          "gen_right": "0006_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0007",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk3",
+        "files": {
+          "rgb": "0007_rgb.mp4",
+          "gt_left": "0007_gt_left.mp4",
+          "gen_left": "0007_gen_left.mp4",
+          "gt_right": "0007_gt_right.mp4",
+          "gen_right": "0007_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0008",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk4",
+        "files": {
+          "rgb": "0008_rgb.mp4",
+          "gt_left": "0008_gt_left.mp4",
+          "gen_left": "0008_gen_left.mp4",
+          "gt_right": "0008_gt_right.mp4",
+          "gen_right": "0008_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0009",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk5",
+        "files": {
+          "rgb": "0009_rgb.mp4",
+          "gt_left": "0009_gt_left.mp4",
+          "gen_left": "0009_gen_left.mp4",
+          "gt_right": "0009_gt_right.mp4",
+          "gen_right": "0009_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0010",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk6",
+        "files": {
+          "rgb": "0010_rgb.mp4",
+          "gt_left": "0010_gt_left.mp4",
+          "gen_left": "0010_gen_left.mp4",
+          "gt_right": "0010_gt_right.mp4",
+          "gen_right": "0010_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0011",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk7",
+        "files": {
+          "rgb": "0011_rgb.mp4",
+          "gt_left": "0011_gt_left.mp4",
+          "gen_left": "0011_gen_left.mp4",
+          "gt_right": "0011_gt_right.mp4",
+          "gen_right": "0011_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0012",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk8",
+        "files": {
+          "rgb": "0012_rgb.mp4",
+          "gt_left": "0012_gt_left.mp4",
+          "gen_left": "0012_gen_left.mp4",
+          "gt_right": "0012_gt_right.mp4",
+          "gen_right": "0012_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0013",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk9",
+        "files": {
+          "rgb": "0013_rgb.mp4",
+          "gt_left": "0013_gt_left.mp4",
+          "gen_left": "0013_gen_left.mp4",
+          "gt_right": "0013_gt_right.mp4",
+          "gen_right": "0013_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0014",
+        "name": "Home_rotate_table_clamp_20260319_213125_134_chunk10",
+        "files": {
+          "rgb": "0014_rgb.mp4",
+          "gt_left": "0014_gt_left.mp4",
+          "gen_left": "0014_gen_left.mp4",
+          "gt_right": "0014_gt_right.mp4",
+          "gen_right": "0014_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0015",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk0",
+        "files": {
+          "rgb": "0015_rgb.mp4",
+          "gt_left": "0015_gt_left.mp4",
+          "gen_left": "0015_gen_left.mp4",
+          "gt_right": "0015_gt_right.mp4",
+          "gen_right": "0015_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0016",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk1",
+        "files": {
+          "rgb": "0016_rgb.mp4",
+          "gt_left": "0016_gt_left.mp4",
+          "gen_left": "0016_gen_left.mp4",
+          "gt_right": "0016_gt_right.mp4",
+          "gen_right": "0016_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0017",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk2",
+        "files": {
+          "rgb": "0017_rgb.mp4",
+          "gt_left": "0017_gt_left.mp4",
+          "gen_left": "0017_gen_left.mp4",
+          "gt_right": "0017_gt_right.mp4",
+          "gen_right": "0017_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0018",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk3",
+        "files": {
+          "rgb": "0018_rgb.mp4",
+          "gt_left": "0018_gt_left.mp4",
+          "gen_left": "0018_gen_left.mp4",
+          "gt_right": "0018_gt_right.mp4",
+          "gen_right": "0018_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0019",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk4",
+        "files": {
+          "rgb": "0019_rgb.mp4",
+          "gt_left": "0019_gt_left.mp4",
+          "gen_left": "0019_gen_left.mp4",
+          "gt_right": "0019_gt_right.mp4",
+          "gen_right": "0019_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0020",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk5",
+        "files": {
+          "rgb": "0020_rgb.mp4",
+          "gt_left": "0020_gt_left.mp4",
+          "gen_left": "0020_gen_left.mp4",
+          "gt_right": "0020_gt_right.mp4",
+          "gen_right": "0020_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0021",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk6",
+        "files": {
+          "rgb": "0021_rgb.mp4",
+          "gt_left": "0021_gt_left.mp4",
+          "gen_left": "0021_gen_left.mp4",
+          "gt_right": "0021_gt_right.mp4",
+          "gen_right": "0021_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0022",
+        "name": "Home_rotate_table_clamp_20260319_213336_559_chunk7",
+        "files": {
+          "rgb": "0022_rgb.mp4",
+          "gt_left": "0022_gt_left.mp4",
+          "gen_left": "0022_gen_left.mp4",
+          "gt_right": "0022_gt_right.mp4",
+          "gen_right": "0022_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0023",
+        "name": "Home_rotate_table_clamp_20260319_213501_266_chunk0",
+        "files": {
+          "rgb": "0023_rgb.mp4",
+          "gt_left": "0023_gt_left.mp4",
+          "gen_left": "0023_gen_left.mp4",
+          "gt_right": "0023_gt_right.mp4",
+          "gen_right": "0023_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0024",
+        "name": "Home_rotate_table_clamp_20260319_213501_266_chunk1",
+        "files": {
+          "rgb": "0024_rgb.mp4",
+          "gt_left": "0024_gt_left.mp4",
+          "gen_left": "0024_gen_left.mp4",
+          "gt_right": "0024_gt_right.mp4",
+          "gen_right": "0024_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0025",
+        "name": "Home_rotate_table_clamp_20260319_213501_266_chunk2",
+        "files": {
+          "rgb": "0025_rgb.mp4",
+          "gt_left": "0025_gt_left.mp4",
+          "gen_left": "0025_gen_left.mp4",
+          "gt_right": "0025_gt_right.mp4",
+          "gen_right": "0025_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0026",
+        "name": "Home_rotate_table_clamp_20260319_213501_266_chunk3",
+        "files": {
+          "rgb": "0026_rgb.mp4",
+          "gt_left": "0026_gt_left.mp4",
+          "gen_left": "0026_gen_left.mp4",
+          "gt_right": "0026_gt_right.mp4",
+          "gen_right": "0026_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0027",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk0",
+        "files": {
+          "rgb": "0027_rgb.mp4",
+          "gt_left": "0027_gt_left.mp4",
+          "gen_left": "0027_gen_left.mp4",
+          "gt_right": "0027_gt_right.mp4",
+          "gen_right": "0027_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0028",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk1",
+        "files": {
+          "rgb": "0028_rgb.mp4",
+          "gt_left": "0028_gt_left.mp4",
+          "gen_left": "0028_gen_left.mp4",
+          "gt_right": "0028_gt_right.mp4",
+          "gen_right": "0028_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0029",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk2",
+        "files": {
+          "rgb": "0029_rgb.mp4",
+          "gt_left": "0029_gt_left.mp4",
+          "gen_left": "0029_gen_left.mp4",
+          "gt_right": "0029_gt_right.mp4",
+          "gen_right": "0029_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0030",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk3",
+        "files": {
+          "rgb": "0030_rgb.mp4",
+          "gt_left": "0030_gt_left.mp4",
+          "gen_left": "0030_gen_left.mp4",
+          "gt_right": "0030_gt_right.mp4",
+          "gen_right": "0030_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0031",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk4",
+        "files": {
+          "rgb": "0031_rgb.mp4",
+          "gt_left": "0031_gt_left.mp4",
+          "gen_left": "0031_gen_left.mp4",
+          "gt_right": "0031_gt_right.mp4",
+          "gen_right": "0031_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0032",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk5",
+        "files": {
+          "rgb": "0032_rgb.mp4",
+          "gt_left": "0032_gt_left.mp4",
+          "gen_left": "0032_gen_left.mp4",
+          "gt_right": "0032_gt_right.mp4",
+          "gen_right": "0032_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0033",
+        "name": "Home_rotate_table_clamp_20260319_213651_103_chunk6",
+        "files": {
+          "rgb": "0033_rgb.mp4",
+          "gt_left": "0033_gt_left.mp4",
+          "gen_left": "0033_gen_left.mp4",
+          "gt_right": "0033_gt_right.mp4",
+          "gen_right": "0033_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0034",
+        "name": "Home_rotate_table_clamp_20260319_213839_536_chunk0",
+        "files": {
+          "rgb": "0034_rgb.mp4",
+          "gt_left": "0034_gt_left.mp4",
+          "gen_left": "0034_gen_left.mp4",
+          "gt_right": "0034_gt_right.mp4",
+          "gen_right": "0034_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0035",
+        "name": "Home_rotate_table_clamp_20260319_213839_536_chunk1",
+        "files": {
+          "rgb": "0035_rgb.mp4",
+          "gt_left": "0035_gt_left.mp4",
+          "gen_left": "0035_gen_left.mp4",
+          "gt_right": "0035_gt_right.mp4",
+          "gen_right": "0035_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0036",
+        "name": "Home_wring_towel_2_20260316_222512_983_chunk0",
+        "files": {
+          "rgb": "0036_rgb.mp4",
+          "gt_left": "0036_gt_left.mp4",
+          "gen_left": "0036_gen_left.mp4",
+          "gt_right": "0036_gt_right.mp4",
+          "gen_right": "0036_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0037",
+        "name": "Home_wring_towel_2_20260316_222538_747_chunk0",
+        "files": {
+          "rgb": "0037_rgb.mp4",
+          "gt_left": "0037_gt_left.mp4",
+          "gen_left": "0037_gen_left.mp4",
+          "gt_right": "0037_gt_right.mp4",
+          "gen_right": "0037_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0038",
+        "name": "Home_wring_towel_2_20260316_222551_033_chunk0",
+        "files": {
+          "rgb": "0038_rgb.mp4",
+          "gt_left": "0038_gt_left.mp4",
+          "gen_left": "0038_gen_left.mp4",
+          "gt_right": "0038_gt_right.mp4",
+          "gen_right": "0038_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0039",
+        "name": "Home_wring_towel_2_20260316_222638_852_chunk0",
+        "files": {
+          "rgb": "0039_rgb.mp4",
+          "gt_left": "0039_gt_left.mp4",
+          "gen_left": "0039_gen_left.mp4",
+          "gt_right": "0039_gt_right.mp4",
+          "gen_right": "0039_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0040",
+        "name": "Home_wring_towel_2_20260316_222803_793_chunk0",
+        "files": {
+          "rgb": "0040_rgb.mp4",
+          "gt_left": "0040_gt_left.mp4",
+          "gen_left": "0040_gen_left.mp4",
+          "gt_right": "0040_gt_right.mp4",
+          "gen_right": "0040_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0041",
+        "name": "Home_wring_towel_2_20260316_222803_793_chunk1",
+        "files": {
+          "rgb": "0041_rgb.mp4",
+          "gt_left": "0041_gt_left.mp4",
+          "gen_left": "0041_gen_left.mp4",
+          "gt_right": "0041_gt_right.mp4",
+          "gen_right": "0041_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0042",
+        "name": "Home_wring_towel_2_20260316_222821_005_chunk0",
+        "files": {
+          "rgb": "0042_rgb.mp4",
+          "gt_left": "0042_gt_left.mp4",
+          "gen_left": "0042_gen_left.mp4",
+          "gt_right": "0042_gt_right.mp4",
+          "gen_right": "0042_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0043",
+        "name": "Home_wring_towel_2_20260316_222835_159_chunk0",
+        "files": {
+          "rgb": "0043_rgb.mp4",
+          "gt_left": "0043_gt_left.mp4",
+          "gen_left": "0043_gen_left.mp4",
+          "gt_right": "0043_gt_right.mp4",
+          "gen_right": "0043_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0044",
+        "name": "Home_wring_towel_2_20260316_222852_939_chunk0",
+        "files": {
+          "rgb": "0044_rgb.mp4",
+          "gt_left": "0044_gt_left.mp4",
+          "gen_left": "0044_gen_left.mp4",
+          "gt_right": "0044_gt_right.mp4",
+          "gen_right": "0044_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0045",
+        "name": "Home_wring_towel_2_20260316_222906_141_chunk0",
+        "files": {
+          "rgb": "0045_rgb.mp4",
+          "gt_left": "0045_gt_left.mp4",
+          "gen_left": "0045_gen_left.mp4",
+          "gt_right": "0045_gt_right.mp4",
+          "gen_right": "0045_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0046",
+        "name": "Office_pick_up_pen_and_write_20260320_153939_711_chunk0",
+        "files": {
+          "rgb": "0046_rgb.mp4",
+          "gt_left": "0046_gt_left.mp4",
+          "gen_left": "0046_gen_left.mp4",
+          "gt_right": "0046_gt_right.mp4",
+          "gen_right": "0046_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0047",
+        "name": "Office_pick_up_pen_and_write_20260320_153939_711_chunk1",
+        "files": {
+          "rgb": "0047_rgb.mp4",
+          "gt_left": "0047_gt_left.mp4",
+          "gen_left": "0047_gen_left.mp4",
+          "gt_right": "0047_gt_right.mp4",
+          "gen_right": "0047_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0048",
+        "name": "Office_pick_up_pen_and_write_20260320_153939_711_chunk2",
+        "files": {
+          "rgb": "0048_rgb.mp4",
+          "gt_left": "0048_gt_left.mp4",
+          "gen_left": "0048_gen_left.mp4",
+          "gt_right": "0048_gt_right.mp4",
+          "gen_right": "0048_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0049",
+        "name": "Office_pick_up_pen_and_write_20260320_154019_710_chunk0",
+        "files": {
+          "rgb": "0049_rgb.mp4",
+          "gt_left": "0049_gt_left.mp4",
+          "gen_left": "0049_gen_left.mp4",
+          "gt_right": "0049_gt_right.mp4",
+          "gen_right": "0049_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0050",
+        "name": "Office_pick_up_pen_and_write_20260320_154019_710_chunk1",
+        "files": {
+          "rgb": "0050_rgb.mp4",
+          "gt_left": "0050_gt_left.mp4",
+          "gen_left": "0050_gen_left.mp4",
+          "gt_right": "0050_gt_right.mp4",
+          "gen_right": "0050_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0051",
+        "name": "Office_pick_up_pen_and_write_20260320_154019_710_chunk2",
+        "files": {
+          "rgb": "0051_rgb.mp4",
+          "gt_left": "0051_gt_left.mp4",
+          "gen_left": "0051_gen_left.mp4",
+          "gt_right": "0051_gt_right.mp4",
+          "gen_right": "0051_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0052",
+        "name": "Office_pick_up_pen_and_write_20260320_154019_710_chunk3",
+        "files": {
+          "rgb": "0052_rgb.mp4",
+          "gt_left": "0052_gt_left.mp4",
+          "gen_left": "0052_gen_left.mp4",
+          "gt_right": "0052_gt_right.mp4",
+          "gen_right": "0052_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0053",
+        "name": "Office_pick_up_pen_and_write_20260320_154019_710_chunk4",
+        "files": {
+          "rgb": "0053_rgb.mp4",
+          "gt_left": "0053_gt_left.mp4",
+          "gen_left": "0053_gen_left.mp4",
+          "gt_right": "0053_gt_right.mp4",
+          "gen_right": "0053_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0054",
+        "name": "Office_pick_up_pen_and_write_20260320_154059_996_chunk0",
+        "files": {
+          "rgb": "0054_rgb.mp4",
+          "gt_left": "0054_gt_left.mp4",
+          "gen_left": "0054_gen_left.mp4",
+          "gt_right": "0054_gt_right.mp4",
+          "gen_right": "0054_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0055",
+        "name": "Office_pick_up_pen_and_write_20260320_154059_996_chunk1",
+        "files": {
+          "rgb": "0055_rgb.mp4",
+          "gt_left": "0055_gt_left.mp4",
+          "gen_left": "0055_gen_left.mp4",
+          "gt_right": "0055_gt_right.mp4",
+          "gen_right": "0055_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0056",
+        "name": "Office_pick_up_pen_and_write_20260320_154059_996_chunk2",
+        "files": {
+          "rgb": "0056_rgb.mp4",
+          "gt_left": "0056_gt_left.mp4",
+          "gen_left": "0056_gen_left.mp4",
+          "gt_right": "0056_gt_right.mp4",
+          "gen_right": "0056_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0057",
+        "name": "Office_pick_up_pen_and_write_20260320_154059_996_chunk3",
+        "files": {
+          "rgb": "0057_rgb.mp4",
+          "gt_left": "0057_gt_left.mp4",
+          "gen_left": "0057_gen_left.mp4",
+          "gt_right": "0057_gt_right.mp4",
+          "gen_right": "0057_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0058",
+        "name": "Office_pick_up_pen_and_write_20260320_154133_780_chunk0",
+        "files": {
+          "rgb": "0058_rgb.mp4",
+          "gt_left": "0058_gt_left.mp4",
+          "gen_left": "0058_gen_left.mp4",
+          "gt_right": "0058_gt_right.mp4",
+          "gen_right": "0058_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0059",
+        "name": "Office_pick_up_pen_and_write_20260320_154133_780_chunk1",
+        "files": {
+          "rgb": "0059_rgb.mp4",
+          "gt_left": "0059_gt_left.mp4",
+          "gen_left": "0059_gen_left.mp4",
+          "gt_right": "0059_gt_right.mp4",
+          "gen_right": "0059_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0060",
+        "name": "Office_pick_up_pen_and_write_20260320_154133_780_chunk2",
+        "files": {
+          "rgb": "0060_rgb.mp4",
+          "gt_left": "0060_gt_left.mp4",
+          "gen_left": "0060_gen_left.mp4",
+          "gt_right": "0060_gt_right.mp4",
+          "gen_right": "0060_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0061",
+        "name": "Office_pick_up_pen_and_write_20260320_154133_780_chunk3",
+        "files": {
+          "rgb": "0061_rgb.mp4",
+          "gt_left": "0061_gt_left.mp4",
+          "gen_left": "0061_gen_left.mp4",
+          "gt_right": "0061_gt_right.mp4",
+          "gen_right": "0061_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0062",
+        "name": "Office_pick_up_pen_and_write_20260320_154133_780_chunk4",
+        "files": {
+          "rgb": "0062_rgb.mp4",
+          "gt_left": "0062_gt_left.mp4",
+          "gen_left": "0062_gen_left.mp4",
+          "gt_right": "0062_gt_right.mp4",
+          "gen_right": "0062_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0063",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105726_521_chunk0",
+        "files": {
+          "rgb": "0063_rgb.mp4",
+          "gt_left": "0063_gt_left.mp4",
+          "gen_left": "0063_gen_left.mp4",
+          "gt_right": "0063_gt_right.mp4",
+          "gen_right": "0063_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0064",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105726_521_chunk1",
+        "files": {
+          "rgb": "0064_rgb.mp4",
+          "gt_left": "0064_gt_left.mp4",
+          "gen_left": "0064_gen_left.mp4",
+          "gt_right": "0064_gt_right.mp4",
+          "gen_right": "0064_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0065",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105726_521_chunk2",
+        "files": {
+          "rgb": "0065_rgb.mp4",
+          "gt_left": "0065_gt_left.mp4",
+          "gen_left": "0065_gen_left.mp4",
+          "gt_right": "0065_gt_right.mp4",
+          "gen_right": "0065_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0066",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105726_521_chunk3",
+        "files": {
+          "rgb": "0066_rgb.mp4",
+          "gt_left": "0066_gt_left.mp4",
+          "gen_left": "0066_gen_left.mp4",
+          "gt_right": "0066_gt_right.mp4",
+          "gen_right": "0066_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0067",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105826_330_chunk0",
+        "files": {
+          "rgb": "0067_rgb.mp4",
+          "gt_left": "0067_gt_left.mp4",
+          "gen_left": "0067_gen_left.mp4",
+          "gt_right": "0067_gt_right.mp4",
+          "gen_right": "0067_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0068",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105826_330_chunk1",
+        "files": {
+          "rgb": "0068_rgb.mp4",
+          "gt_left": "0068_gt_left.mp4",
+          "gen_left": "0068_gen_left.mp4",
+          "gt_right": "0068_gt_right.mp4",
+          "gen_right": "0068_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0069",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105826_330_chunk2",
+        "files": {
+          "rgb": "0069_rgb.mp4",
+          "gt_left": "0069_gt_left.mp4",
+          "gen_left": "0069_gen_left.mp4",
+          "gt_right": "0069_gt_right.mp4",
+          "gen_right": "0069_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0070",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105826_330_chunk3",
+        "files": {
+          "rgb": "0070_rgb.mp4",
+          "gt_left": "0070_gt_left.mp4",
+          "gen_left": "0070_gen_left.mp4",
+          "gt_right": "0070_gt_right.mp4",
+          "gen_right": "0070_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0071",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105922_283_chunk0",
+        "files": {
+          "rgb": "0071_rgb.mp4",
+          "gt_left": "0071_gt_left.mp4",
+          "gen_left": "0071_gen_left.mp4",
+          "gt_right": "0071_gt_right.mp4",
+          "gen_right": "0071_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0072",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105922_283_chunk1",
+        "files": {
+          "rgb": "0072_rgb.mp4",
+          "gt_left": "0072_gt_left.mp4",
+          "gen_left": "0072_gen_left.mp4",
+          "gt_right": "0072_gt_right.mp4",
+          "gen_right": "0072_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0073",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105922_283_chunk2",
+        "files": {
+          "rgb": "0073_rgb.mp4",
+          "gt_left": "0073_gt_left.mp4",
+          "gen_left": "0073_gen_left.mp4",
+          "gt_right": "0073_gt_right.mp4",
+          "gen_right": "0073_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0074",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105922_283_chunk3",
+        "files": {
+          "rgb": "0074_rgb.mp4",
+          "gt_left": "0074_gt_left.mp4",
+          "gen_left": "0074_gen_left.mp4",
+          "gt_right": "0074_gt_right.mp4",
+          "gen_right": "0074_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0075",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_105922_283_chunk4",
+        "files": {
+          "rgb": "0075_rgb.mp4",
+          "gt_left": "0075_gt_left.mp4",
+          "gen_left": "0075_gen_left.mp4",
+          "gt_right": "0075_gt_right.mp4",
+          "gen_right": "0075_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0076",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk0",
+        "files": {
+          "rgb": "0076_rgb.mp4",
+          "gt_left": "0076_gt_left.mp4",
+          "gen_left": "0076_gen_left.mp4",
+          "gt_right": "0076_gt_right.mp4",
+          "gen_right": "0076_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0077",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk1",
+        "files": {
+          "rgb": "0077_rgb.mp4",
+          "gt_left": "0077_gt_left.mp4",
+          "gen_left": "0077_gen_left.mp4",
+          "gt_right": "0077_gt_right.mp4",
+          "gen_right": "0077_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0078",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk2",
+        "files": {
+          "rgb": "0078_rgb.mp4",
+          "gt_left": "0078_gt_left.mp4",
+          "gen_left": "0078_gen_left.mp4",
+          "gt_right": "0078_gt_right.mp4",
+          "gen_right": "0078_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0079",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk3",
+        "files": {
+          "rgb": "0079_rgb.mp4",
+          "gt_left": "0079_gt_left.mp4",
+          "gen_left": "0079_gen_left.mp4",
+          "gt_right": "0079_gt_right.mp4",
+          "gen_right": "0079_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0080",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk4",
+        "files": {
+          "rgb": "0080_rgb.mp4",
+          "gt_left": "0080_gt_left.mp4",
+          "gen_left": "0080_gen_left.mp4",
+          "gt_right": "0080_gt_right.mp4",
+          "gen_right": "0080_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0081",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk5",
+        "files": {
+          "rgb": "0081_rgb.mp4",
+          "gt_left": "0081_gt_left.mp4",
+          "gen_left": "0081_gen_left.mp4",
+          "gt_right": "0081_gt_right.mp4",
+          "gen_right": "0081_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0082",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110018_177_chunk6",
+        "files": {
+          "rgb": "0082_rgb.mp4",
+          "gt_left": "0082_gt_left.mp4",
+          "gen_left": "0082_gen_left.mp4",
+          "gt_right": "0082_gt_right.mp4",
+          "gen_right": "0082_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0083",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110114_621_chunk0",
+        "files": {
+          "rgb": "0083_rgb.mp4",
+          "gt_left": "0083_gt_left.mp4",
+          "gen_left": "0083_gen_left.mp4",
+          "gt_right": "0083_gt_right.mp4",
+          "gen_right": "0083_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0084",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110114_621_chunk1",
+        "files": {
+          "rgb": "0084_rgb.mp4",
+          "gt_left": "0084_gt_left.mp4",
+          "gen_left": "0084_gen_left.mp4",
+          "gt_right": "0084_gt_right.mp4",
+          "gen_right": "0084_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0085",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110114_621_chunk2",
+        "files": {
+          "rgb": "0085_rgb.mp4",
+          "gt_left": "0085_gt_left.mp4",
+          "gen_left": "0085_gen_left.mp4",
+          "gt_right": "0085_gt_right.mp4",
+          "gen_right": "0085_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0086",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110114_621_chunk3",
+        "files": {
+          "rgb": "0086_rgb.mp4",
+          "gt_left": "0086_gt_left.mp4",
+          "gen_left": "0086_gen_left.mp4",
+          "gt_right": "0086_gt_right.mp4",
+          "gen_right": "0086_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0087",
+        "name": "Outdoor_put_back_ping_pong_paddle_20260321_110114_621_chunk4",
+        "files": {
+          "rgb": "0087_rgb.mp4",
+          "gt_left": "0087_gt_left.mp4",
+          "gen_left": "0087_gen_left.mp4",
+          "gt_right": "0087_gt_right.mp4",
+          "gen_right": "0087_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0088",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk0",
+        "files": {
+          "rgb": "0088_rgb.mp4",
+          "gt_left": "0088_gt_left.mp4",
+          "gen_left": "0088_gen_left.mp4",
+          "gt_right": "0088_gt_right.mp4",
+          "gen_right": "0088_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0089",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk1",
+        "files": {
+          "rgb": "0089_rgb.mp4",
+          "gt_left": "0089_gt_left.mp4",
+          "gen_left": "0089_gen_left.mp4",
+          "gt_right": "0089_gt_right.mp4",
+          "gen_right": "0089_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0090",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk2",
+        "files": {
+          "rgb": "0090_rgb.mp4",
+          "gt_left": "0090_gt_left.mp4",
+          "gen_left": "0090_gen_left.mp4",
+          "gt_right": "0090_gt_right.mp4",
+          "gen_right": "0090_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0091",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk3",
+        "files": {
+          "rgb": "0091_rgb.mp4",
+          "gt_left": "0091_gt_left.mp4",
+          "gen_left": "0091_gen_left.mp4",
+          "gt_right": "0091_gt_right.mp4",
+          "gen_right": "0091_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0092",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk4",
+        "files": {
+          "rgb": "0092_rgb.mp4",
+          "gt_left": "0092_gt_left.mp4",
+          "gen_left": "0092_gen_left.mp4",
+          "gt_right": "0092_gt_right.mp4",
+          "gen_right": "0092_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0093",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk5",
+        "files": {
+          "rgb": "0093_rgb.mp4",
+          "gt_left": "0093_gt_left.mp4",
+          "gen_left": "0093_gen_left.mp4",
+          "gt_right": "0093_gt_right.mp4",
+          "gen_right": "0093_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0094",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk6",
+        "files": {
+          "rgb": "0094_rgb.mp4",
+          "gt_left": "0094_gt_left.mp4",
+          "gen_left": "0094_gen_left.mp4",
+          "gt_right": "0094_gt_right.mp4",
+          "gen_right": "0094_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0095",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk7",
+        "files": {
+          "rgb": "0095_rgb.mp4",
+          "gt_left": "0095_gt_left.mp4",
+          "gen_left": "0095_gen_left.mp4",
+          "gt_right": "0095_gt_right.mp4",
+          "gen_right": "0095_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0096",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk8",
+        "files": {
+          "rgb": "0096_rgb.mp4",
+          "gt_left": "0096_gt_left.mp4",
+          "gen_left": "0096_gen_left.mp4",
+          "gt_right": "0096_gt_right.mp4",
+          "gen_right": "0096_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0097",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk9",
+        "files": {
+          "rgb": "0097_rgb.mp4",
+          "gt_left": "0097_gt_left.mp4",
+          "gen_left": "0097_gen_left.mp4",
+          "gt_right": "0097_gt_right.mp4",
+          "gen_right": "0097_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0098",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk10",
+        "files": {
+          "rgb": "0098_rgb.mp4",
+          "gt_left": "0098_gt_left.mp4",
+          "gen_left": "0098_gen_left.mp4",
+          "gt_right": "0098_gt_right.mp4",
+          "gen_right": "0098_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0099",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk11",
+        "files": {
+          "rgb": "0099_rgb.mp4",
+          "gt_left": "0099_gt_left.mp4",
+          "gen_left": "0099_gen_left.mp4",
+          "gt_right": "0099_gt_right.mp4",
+          "gen_right": "0099_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0100",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk12",
+        "files": {
+          "rgb": "0100_rgb.mp4",
+          "gt_left": "0100_gt_left.mp4",
+          "gen_left": "0100_gen_left.mp4",
+          "gt_right": "0100_gt_right.mp4",
+          "gen_right": "0100_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0101",
+        "name": "Retail_open_package_bag_20260321_211122_465_chunk13",
+        "files": {
+          "rgb": "0101_rgb.mp4",
+          "gt_left": "0101_gt_left.mp4",
+          "gen_left": "0101_gen_left.mp4",
+          "gt_right": "0101_gt_right.mp4",
+          "gen_right": "0101_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0102",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk0",
+        "files": {
+          "rgb": "0102_rgb.mp4",
+          "gt_left": "0102_gt_left.mp4",
+          "gen_left": "0102_gen_left.mp4",
+          "gt_right": "0102_gt_right.mp4",
+          "gen_right": "0102_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0103",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk1",
+        "files": {
+          "rgb": "0103_rgb.mp4",
+          "gt_left": "0103_gt_left.mp4",
+          "gen_left": "0103_gen_left.mp4",
+          "gt_right": "0103_gt_right.mp4",
+          "gen_right": "0103_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0104",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk2",
+        "files": {
+          "rgb": "0104_rgb.mp4",
+          "gt_left": "0104_gt_left.mp4",
+          "gen_left": "0104_gen_left.mp4",
+          "gt_right": "0104_gt_right.mp4",
+          "gen_right": "0104_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0105",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk3",
+        "files": {
+          "rgb": "0105_rgb.mp4",
+          "gt_left": "0105_gt_left.mp4",
+          "gen_left": "0105_gen_left.mp4",
+          "gt_right": "0105_gt_right.mp4",
+          "gen_right": "0105_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0106",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk4",
+        "files": {
+          "rgb": "0106_rgb.mp4",
+          "gt_left": "0106_gt_left.mp4",
+          "gen_left": "0106_gen_left.mp4",
+          "gt_right": "0106_gt_right.mp4",
+          "gen_right": "0106_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0107",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk5",
+        "files": {
+          "rgb": "0107_rgb.mp4",
+          "gt_left": "0107_gt_left.mp4",
+          "gen_left": "0107_gen_left.mp4",
+          "gt_right": "0107_gt_right.mp4",
+          "gen_right": "0107_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0108",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk6",
+        "files": {
+          "rgb": "0108_rgb.mp4",
+          "gt_left": "0108_gt_left.mp4",
+          "gen_left": "0108_gen_left.mp4",
+          "gt_right": "0108_gt_right.mp4",
+          "gen_right": "0108_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0109",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk7",
+        "files": {
+          "rgb": "0109_rgb.mp4",
+          "gt_left": "0109_gt_left.mp4",
+          "gen_left": "0109_gen_left.mp4",
+          "gt_right": "0109_gt_right.mp4",
+          "gen_right": "0109_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0110",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk8",
+        "files": {
+          "rgb": "0110_rgb.mp4",
+          "gt_left": "0110_gt_left.mp4",
+          "gen_left": "0110_gen_left.mp4",
+          "gt_right": "0110_gt_right.mp4",
+          "gen_right": "0110_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0111",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk9",
+        "files": {
+          "rgb": "0111_rgb.mp4",
+          "gt_left": "0111_gt_left.mp4",
+          "gen_left": "0111_gen_left.mp4",
+          "gt_right": "0111_gt_right.mp4",
+          "gen_right": "0111_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0112",
+        "name": "Retail_open_package_bag_20260321_211228_265_chunk10",
+        "files": {
+          "rgb": "0112_rgb.mp4",
+          "gt_left": "0112_gt_left.mp4",
+          "gen_left": "0112_gen_left.mp4",
+          "gt_right": "0112_gt_right.mp4",
+          "gen_right": "0112_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0113",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk0",
+        "files": {
+          "rgb": "0113_rgb.mp4",
+          "gt_left": "0113_gt_left.mp4",
+          "gen_left": "0113_gen_left.mp4",
+          "gt_right": "0113_gt_right.mp4",
+          "gen_right": "0113_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0114",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk1",
+        "files": {
+          "rgb": "0114_rgb.mp4",
+          "gt_left": "0114_gt_left.mp4",
+          "gen_left": "0114_gen_left.mp4",
+          "gt_right": "0114_gt_right.mp4",
+          "gen_right": "0114_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0115",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk2",
+        "files": {
+          "rgb": "0115_rgb.mp4",
+          "gt_left": "0115_gt_left.mp4",
+          "gen_left": "0115_gen_left.mp4",
+          "gt_right": "0115_gt_right.mp4",
+          "gen_right": "0115_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0116",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk3",
+        "files": {
+          "rgb": "0116_rgb.mp4",
+          "gt_left": "0116_gt_left.mp4",
+          "gen_left": "0116_gen_left.mp4",
+          "gt_right": "0116_gt_right.mp4",
+          "gen_right": "0116_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0117",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk4",
+        "files": {
+          "rgb": "0117_rgb.mp4",
+          "gt_left": "0117_gt_left.mp4",
+          "gen_left": "0117_gen_left.mp4",
+          "gt_right": "0117_gt_right.mp4",
+          "gen_right": "0117_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0118",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk5",
+        "files": {
+          "rgb": "0118_rgb.mp4",
+          "gt_left": "0118_gt_left.mp4",
+          "gen_left": "0118_gen_left.mp4",
+          "gt_right": "0118_gt_right.mp4",
+          "gen_right": "0118_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0119",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk6",
+        "files": {
+          "rgb": "0119_rgb.mp4",
+          "gt_left": "0119_gt_left.mp4",
+          "gen_left": "0119_gen_left.mp4",
+          "gt_right": "0119_gt_right.mp4",
+          "gen_right": "0119_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0120",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk7",
+        "files": {
+          "rgb": "0120_rgb.mp4",
+          "gt_left": "0120_gt_left.mp4",
+          "gen_left": "0120_gen_left.mp4",
+          "gt_right": "0120_gt_right.mp4",
+          "gen_right": "0120_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0121",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk8",
+        "files": {
+          "rgb": "0121_rgb.mp4",
+          "gt_left": "0121_gt_left.mp4",
+          "gen_left": "0121_gen_left.mp4",
+          "gt_right": "0121_gt_right.mp4",
+          "gen_right": "0121_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0122",
+        "name": "Retail_open_package_bag_20260321_211327_697_chunk9",
+        "files": {
+          "rgb": "0122_rgb.mp4",
+          "gt_left": "0122_gt_left.mp4",
+          "gen_left": "0122_gen_left.mp4",
+          "gt_right": "0122_gt_right.mp4",
+          "gen_right": "0122_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0123",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk0",
+        "files": {
+          "rgb": "0123_rgb.mp4",
+          "gt_left": "0123_gt_left.mp4",
+          "gen_left": "0123_gen_left.mp4",
+          "gt_right": "0123_gt_right.mp4",
+          "gen_right": "0123_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0124",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk1",
+        "files": {
+          "rgb": "0124_rgb.mp4",
+          "gt_left": "0124_gt_left.mp4",
+          "gen_left": "0124_gen_left.mp4",
+          "gt_right": "0124_gt_right.mp4",
+          "gen_right": "0124_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0125",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk2",
+        "files": {
+          "rgb": "0125_rgb.mp4",
+          "gt_left": "0125_gt_left.mp4",
+          "gen_left": "0125_gen_left.mp4",
+          "gt_right": "0125_gt_right.mp4",
+          "gen_right": "0125_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0126",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk3",
+        "files": {
+          "rgb": "0126_rgb.mp4",
+          "gt_left": "0126_gt_left.mp4",
+          "gen_left": "0126_gen_left.mp4",
+          "gt_right": "0126_gt_right.mp4",
+          "gen_right": "0126_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0127",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk4",
+        "files": {
+          "rgb": "0127_rgb.mp4",
+          "gt_left": "0127_gt_left.mp4",
+          "gen_left": "0127_gen_left.mp4",
+          "gt_right": "0127_gt_right.mp4",
+          "gen_right": "0127_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0128",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk5",
+        "files": {
+          "rgb": "0128_rgb.mp4",
+          "gt_left": "0128_gt_left.mp4",
+          "gen_left": "0128_gen_left.mp4",
+          "gt_right": "0128_gt_right.mp4",
+          "gen_right": "0128_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0129",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk6",
+        "files": {
+          "rgb": "0129_rgb.mp4",
+          "gt_left": "0129_gt_left.mp4",
+          "gen_left": "0129_gen_left.mp4",
+          "gt_right": "0129_gt_right.mp4",
+          "gen_right": "0129_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0130",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk7",
+        "files": {
+          "rgb": "0130_rgb.mp4",
+          "gt_left": "0130_gt_left.mp4",
+          "gen_left": "0130_gen_left.mp4",
+          "gt_right": "0130_gt_right.mp4",
+          "gen_right": "0130_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0131",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk8",
+        "files": {
+          "rgb": "0131_rgb.mp4",
+          "gt_left": "0131_gt_left.mp4",
+          "gen_left": "0131_gen_left.mp4",
+          "gt_right": "0131_gt_right.mp4",
+          "gen_right": "0131_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0132",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk9",
+        "files": {
+          "rgb": "0132_rgb.mp4",
+          "gt_left": "0132_gt_left.mp4",
+          "gen_left": "0132_gen_left.mp4",
+          "gt_right": "0132_gt_right.mp4",
+          "gen_right": "0132_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0133",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk10",
+        "files": {
+          "rgb": "0133_rgb.mp4",
+          "gt_left": "0133_gt_left.mp4",
+          "gen_left": "0133_gen_left.mp4",
+          "gt_right": "0133_gt_right.mp4",
+          "gen_right": "0133_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0134",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk11",
+        "files": {
+          "rgb": "0134_rgb.mp4",
+          "gt_left": "0134_gt_left.mp4",
+          "gen_left": "0134_gen_left.mp4",
+          "gt_right": "0134_gt_right.mp4",
+          "gen_right": "0134_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0135",
+        "name": "Retail_open_package_bag_20260321_211436_038_chunk12",
+        "files": {
+          "rgb": "0135_rgb.mp4",
+          "gt_left": "0135_gt_left.mp4",
+          "gen_left": "0135_gen_left.mp4",
+          "gt_right": "0135_gt_right.mp4",
+          "gen_right": "0135_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0136",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk0",
+        "files": {
+          "rgb": "0136_rgb.mp4",
+          "gt_left": "0136_gt_left.mp4",
+          "gen_left": "0136_gen_left.mp4",
+          "gt_right": "0136_gt_right.mp4",
+          "gen_right": "0136_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0137",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk1",
+        "files": {
+          "rgb": "0137_rgb.mp4",
+          "gt_left": "0137_gt_left.mp4",
+          "gen_left": "0137_gen_left.mp4",
+          "gt_right": "0137_gt_right.mp4",
+          "gen_right": "0137_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0138",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk2",
+        "files": {
+          "rgb": "0138_rgb.mp4",
+          "gt_left": "0138_gt_left.mp4",
+          "gen_left": "0138_gen_left.mp4",
+          "gt_right": "0138_gt_right.mp4",
+          "gen_right": "0138_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0139",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk3",
+        "files": {
+          "rgb": "0139_rgb.mp4",
+          "gt_left": "0139_gt_left.mp4",
+          "gen_left": "0139_gen_left.mp4",
+          "gt_right": "0139_gt_right.mp4",
+          "gen_right": "0139_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0140",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk4",
+        "files": {
+          "rgb": "0140_rgb.mp4",
+          "gt_left": "0140_gt_left.mp4",
+          "gen_left": "0140_gen_left.mp4",
+          "gt_right": "0140_gt_right.mp4",
+          "gen_right": "0140_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0141",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk5",
+        "files": {
+          "rgb": "0141_rgb.mp4",
+          "gt_left": "0141_gt_left.mp4",
+          "gen_left": "0141_gen_left.mp4",
+          "gt_right": "0141_gt_right.mp4",
+          "gen_right": "0141_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0142",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk6",
+        "files": {
+          "rgb": "0142_rgb.mp4",
+          "gt_left": "0142_gt_left.mp4",
+          "gen_left": "0142_gen_left.mp4",
+          "gt_right": "0142_gt_right.mp4",
+          "gen_right": "0142_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0143",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk7",
+        "files": {
+          "rgb": "0143_rgb.mp4",
+          "gt_left": "0143_gt_left.mp4",
+          "gen_left": "0143_gen_left.mp4",
+          "gt_right": "0143_gt_right.mp4",
+          "gen_right": "0143_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0144",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk8",
+        "files": {
+          "rgb": "0144_rgb.mp4",
+          "gt_left": "0144_gt_left.mp4",
+          "gen_left": "0144_gen_left.mp4",
+          "gt_right": "0144_gt_right.mp4",
+          "gen_right": "0144_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0145",
+        "name": "Retail_open_package_bag_20260321_211537_407_chunk9",
+        "files": {
+          "rgb": "0145_rgb.mp4",
+          "gt_left": "0145_gt_left.mp4",
+          "gen_left": "0145_gen_left.mp4",
+          "gt_right": "0145_gt_right.mp4",
+          "gen_right": "0145_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0146",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk0",
+        "files": {
+          "rgb": "0146_rgb.mp4",
+          "gt_left": "0146_gt_left.mp4",
+          "gen_left": "0146_gen_left.mp4",
+          "gt_right": "0146_gt_right.mp4",
+          "gen_right": "0146_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0147",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk1",
+        "files": {
+          "rgb": "0147_rgb.mp4",
+          "gt_left": "0147_gt_left.mp4",
+          "gen_left": "0147_gen_left.mp4",
+          "gt_right": "0147_gt_right.mp4",
+          "gen_right": "0147_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0148",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk2",
+        "files": {
+          "rgb": "0148_rgb.mp4",
+          "gt_left": "0148_gt_left.mp4",
+          "gen_left": "0148_gen_left.mp4",
+          "gt_right": "0148_gt_right.mp4",
+          "gen_right": "0148_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0149",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk3",
+        "files": {
+          "rgb": "0149_rgb.mp4",
+          "gt_left": "0149_gt_left.mp4",
+          "gen_left": "0149_gen_left.mp4",
+          "gt_right": "0149_gt_right.mp4",
+          "gen_right": "0149_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0150",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk4",
+        "files": {
+          "rgb": "0150_rgb.mp4",
+          "gt_left": "0150_gt_left.mp4",
+          "gen_left": "0150_gen_left.mp4",
+          "gt_right": "0150_gt_right.mp4",
+          "gen_right": "0150_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0151",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk5",
+        "files": {
+          "rgb": "0151_rgb.mp4",
+          "gt_left": "0151_gt_left.mp4",
+          "gen_left": "0151_gen_left.mp4",
+          "gt_right": "0151_gt_right.mp4",
+          "gen_right": "0151_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0152",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk6",
+        "files": {
+          "rgb": "0152_rgb.mp4",
+          "gt_left": "0152_gt_left.mp4",
+          "gen_left": "0152_gen_left.mp4",
+          "gt_right": "0152_gt_right.mp4",
+          "gen_right": "0152_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0153",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk7",
+        "files": {
+          "rgb": "0153_rgb.mp4",
+          "gt_left": "0153_gt_left.mp4",
+          "gen_left": "0153_gen_left.mp4",
+          "gt_right": "0153_gt_right.mp4",
+          "gen_right": "0153_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0154",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk8",
+        "files": {
+          "rgb": "0154_rgb.mp4",
+          "gt_left": "0154_gt_left.mp4",
+          "gen_left": "0154_gen_left.mp4",
+          "gt_right": "0154_gt_right.mp4",
+          "gen_right": "0154_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0155",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk9",
+        "files": {
+          "rgb": "0155_rgb.mp4",
+          "gt_left": "0155_gt_left.mp4",
+          "gen_left": "0155_gen_left.mp4",
+          "gt_right": "0155_gt_right.mp4",
+          "gen_right": "0155_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0156",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk10",
+        "files": {
+          "rgb": "0156_rgb.mp4",
+          "gt_left": "0156_gt_left.mp4",
+          "gen_left": "0156_gen_left.mp4",
+          "gt_right": "0156_gt_right.mp4",
+          "gen_right": "0156_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0157",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk11",
+        "files": {
+          "rgb": "0157_rgb.mp4",
+          "gt_left": "0157_gt_left.mp4",
+          "gen_left": "0157_gen_left.mp4",
+          "gt_right": "0157_gt_right.mp4",
+          "gen_right": "0157_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0158",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk12",
+        "files": {
+          "rgb": "0158_rgb.mp4",
+          "gt_left": "0158_gt_left.mp4",
+          "gen_left": "0158_gen_left.mp4",
+          "gt_right": "0158_gt_right.mp4",
+          "gen_right": "0158_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0159",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk13",
+        "files": {
+          "rgb": "0159_rgb.mp4",
+          "gt_left": "0159_gt_left.mp4",
+          "gen_left": "0159_gen_left.mp4",
+          "gt_right": "0159_gt_right.mp4",
+          "gen_right": "0159_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0160",
+        "name": "Retail_open_package_bag_20260321_212039_672_chunk14",
+        "files": {
+          "rgb": "0160_rgb.mp4",
+          "gt_left": "0160_gt_left.mp4",
+          "gen_left": "0160_gen_left.mp4",
+          "gt_right": "0160_gt_right.mp4",
+          "gen_right": "0160_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0161",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk0",
+        "files": {
+          "rgb": "0161_rgb.mp4",
+          "gt_left": "0161_gt_left.mp4",
+          "gen_left": "0161_gen_left.mp4",
+          "gt_right": "0161_gt_right.mp4",
+          "gen_right": "0161_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0162",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk1",
+        "files": {
+          "rgb": "0162_rgb.mp4",
+          "gt_left": "0162_gt_left.mp4",
+          "gen_left": "0162_gen_left.mp4",
+          "gt_right": "0162_gt_right.mp4",
+          "gen_right": "0162_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0163",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk2",
+        "files": {
+          "rgb": "0163_rgb.mp4",
+          "gt_left": "0163_gt_left.mp4",
+          "gen_left": "0163_gen_left.mp4",
+          "gt_right": "0163_gt_right.mp4",
+          "gen_right": "0163_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0164",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk3",
+        "files": {
+          "rgb": "0164_rgb.mp4",
+          "gt_left": "0164_gt_left.mp4",
+          "gen_left": "0164_gen_left.mp4",
+          "gt_right": "0164_gt_right.mp4",
+          "gen_right": "0164_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0165",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk4",
+        "files": {
+          "rgb": "0165_rgb.mp4",
+          "gt_left": "0165_gt_left.mp4",
+          "gen_left": "0165_gen_left.mp4",
+          "gt_right": "0165_gt_right.mp4",
+          "gen_right": "0165_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0166",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk5",
+        "files": {
+          "rgb": "0166_rgb.mp4",
+          "gt_left": "0166_gt_left.mp4",
+          "gen_left": "0166_gen_left.mp4",
+          "gt_right": "0166_gt_right.mp4",
+          "gen_right": "0166_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0167",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk6",
+        "files": {
+          "rgb": "0167_rgb.mp4",
+          "gt_left": "0167_gt_left.mp4",
+          "gen_left": "0167_gen_left.mp4",
+          "gt_right": "0167_gt_right.mp4",
+          "gen_right": "0167_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0168",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk7",
+        "files": {
+          "rgb": "0168_rgb.mp4",
+          "gt_left": "0168_gt_left.mp4",
+          "gen_left": "0168_gen_left.mp4",
+          "gt_right": "0168_gt_right.mp4",
+          "gen_right": "0168_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0169",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk8",
+        "files": {
+          "rgb": "0169_rgb.mp4",
+          "gt_left": "0169_gt_left.mp4",
+          "gen_left": "0169_gen_left.mp4",
+          "gt_right": "0169_gt_right.mp4",
+          "gen_right": "0169_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0170",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk9",
+        "files": {
+          "rgb": "0170_rgb.mp4",
+          "gt_left": "0170_gt_left.mp4",
+          "gen_left": "0170_gen_left.mp4",
+          "gt_right": "0170_gt_right.mp4",
+          "gen_right": "0170_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0171",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk10",
+        "files": {
+          "rgb": "0171_rgb.mp4",
+          "gt_left": "0171_gt_left.mp4",
+          "gen_left": "0171_gen_left.mp4",
+          "gt_right": "0171_gt_right.mp4",
+          "gen_right": "0171_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0172",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk11",
+        "files": {
+          "rgb": "0172_rgb.mp4",
+          "gt_left": "0172_gt_left.mp4",
+          "gen_left": "0172_gen_left.mp4",
+          "gt_right": "0172_gt_right.mp4",
+          "gen_right": "0172_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0173",
+        "name": "Retail_open_package_bag_20260321_212640_400_chunk12",
+        "files": {
+          "rgb": "0173_rgb.mp4",
+          "gt_left": "0173_gt_left.mp4",
+          "gen_left": "0173_gen_left.mp4",
+          "gt_right": "0173_gt_right.mp4",
+          "gen_right": "0173_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0174",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk0",
+        "files": {
+          "rgb": "0174_rgb.mp4",
+          "gt_left": "0174_gt_left.mp4",
+          "gen_left": "0174_gen_left.mp4",
+          "gt_right": "0174_gt_right.mp4",
+          "gen_right": "0174_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0175",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk1",
+        "files": {
+          "rgb": "0175_rgb.mp4",
+          "gt_left": "0175_gt_left.mp4",
+          "gen_left": "0175_gen_left.mp4",
+          "gt_right": "0175_gt_right.mp4",
+          "gen_right": "0175_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0176",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk2",
+        "files": {
+          "rgb": "0176_rgb.mp4",
+          "gt_left": "0176_gt_left.mp4",
+          "gen_left": "0176_gen_left.mp4",
+          "gt_right": "0176_gt_right.mp4",
+          "gen_right": "0176_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0177",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk3",
+        "files": {
+          "rgb": "0177_rgb.mp4",
+          "gt_left": "0177_gt_left.mp4",
+          "gen_left": "0177_gen_left.mp4",
+          "gt_right": "0177_gt_right.mp4",
+          "gen_right": "0177_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0178",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk4",
+        "files": {
+          "rgb": "0178_rgb.mp4",
+          "gt_left": "0178_gt_left.mp4",
+          "gen_left": "0178_gen_left.mp4",
+          "gt_right": "0178_gt_right.mp4",
+          "gen_right": "0178_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0179",
+        "name": "Retail_open_package_bag_20260321_213010_222_chunk5",
+        "files": {
+          "rgb": "0179_rgb.mp4",
+          "gt_left": "0179_gt_left.mp4",
+          "gen_left": "0179_gen_left.mp4",
+          "gt_right": "0179_gt_right.mp4",
+          "gen_right": "0179_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0180",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk0",
+        "files": {
+          "rgb": "0180_rgb.mp4",
+          "gt_left": "0180_gt_left.mp4",
+          "gen_left": "0180_gen_left.mp4",
+          "gt_right": "0180_gt_right.mp4",
+          "gen_right": "0180_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0181",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk1",
+        "files": {
+          "rgb": "0181_rgb.mp4",
+          "gt_left": "0181_gt_left.mp4",
+          "gen_left": "0181_gen_left.mp4",
+          "gt_right": "0181_gt_right.mp4",
+          "gen_right": "0181_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0182",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk2",
+        "files": {
+          "rgb": "0182_rgb.mp4",
+          "gt_left": "0182_gt_left.mp4",
+          "gen_left": "0182_gen_left.mp4",
+          "gt_right": "0182_gt_right.mp4",
+          "gen_right": "0182_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0183",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk3",
+        "files": {
+          "rgb": "0183_rgb.mp4",
+          "gt_left": "0183_gt_left.mp4",
+          "gen_left": "0183_gen_left.mp4",
+          "gt_right": "0183_gt_right.mp4",
+          "gen_right": "0183_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0184",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk4",
+        "files": {
+          "rgb": "0184_rgb.mp4",
+          "gt_left": "0184_gt_left.mp4",
+          "gen_left": "0184_gen_left.mp4",
+          "gt_right": "0184_gt_right.mp4",
+          "gen_right": "0184_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0185",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk5",
+        "files": {
+          "rgb": "0185_rgb.mp4",
+          "gt_left": "0185_gt_left.mp4",
+          "gen_left": "0185_gen_left.mp4",
+          "gt_right": "0185_gt_right.mp4",
+          "gen_right": "0185_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0186",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk6",
+        "files": {
+          "rgb": "0186_rgb.mp4",
+          "gt_left": "0186_gt_left.mp4",
+          "gen_left": "0186_gen_left.mp4",
+          "gt_right": "0186_gt_right.mp4",
+          "gen_right": "0186_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0187",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk7",
+        "files": {
+          "rgb": "0187_rgb.mp4",
+          "gt_left": "0187_gt_left.mp4",
+          "gen_left": "0187_gen_left.mp4",
+          "gt_right": "0187_gt_right.mp4",
+          "gen_right": "0187_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0188",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk8",
+        "files": {
+          "rgb": "0188_rgb.mp4",
+          "gt_left": "0188_gt_left.mp4",
+          "gen_left": "0188_gen_left.mp4",
+          "gt_right": "0188_gt_right.mp4",
+          "gen_right": "0188_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0189",
+        "name": "Retail_open_package_bag_20260321_213145_477_chunk9",
+        "files": {
+          "rgb": "0189_rgb.mp4",
+          "gt_left": "0189_gt_left.mp4",
+          "gen_left": "0189_gen_left.mp4",
+          "gt_right": "0189_gt_right.mp4",
+          "gen_right": "0189_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0190",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk0",
+        "files": {
+          "rgb": "0190_rgb.mp4",
+          "gt_left": "0190_gt_left.mp4",
+          "gen_left": "0190_gen_left.mp4",
+          "gt_right": "0190_gt_right.mp4",
+          "gen_right": "0190_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0191",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk1",
+        "files": {
+          "rgb": "0191_rgb.mp4",
+          "gt_left": "0191_gt_left.mp4",
+          "gen_left": "0191_gen_left.mp4",
+          "gt_right": "0191_gt_right.mp4",
+          "gen_right": "0191_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0192",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk2",
+        "files": {
+          "rgb": "0192_rgb.mp4",
+          "gt_left": "0192_gt_left.mp4",
+          "gen_left": "0192_gen_left.mp4",
+          "gt_right": "0192_gt_right.mp4",
+          "gen_right": "0192_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0193",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk3",
+        "files": {
+          "rgb": "0193_rgb.mp4",
+          "gt_left": "0193_gt_left.mp4",
+          "gen_left": "0193_gen_left.mp4",
+          "gt_right": "0193_gt_right.mp4",
+          "gen_right": "0193_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0194",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk4",
+        "files": {
+          "rgb": "0194_rgb.mp4",
+          "gt_left": "0194_gt_left.mp4",
+          "gen_left": "0194_gen_left.mp4",
+          "gt_right": "0194_gt_right.mp4",
+          "gen_right": "0194_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0195",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk5",
+        "files": {
+          "rgb": "0195_rgb.mp4",
+          "gt_left": "0195_gt_left.mp4",
+          "gen_left": "0195_gen_left.mp4",
+          "gt_right": "0195_gt_right.mp4",
+          "gen_right": "0195_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0196",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk6",
+        "files": {
+          "rgb": "0196_rgb.mp4",
+          "gt_left": "0196_gt_left.mp4",
+          "gen_left": "0196_gen_left.mp4",
+          "gt_right": "0196_gt_right.mp4",
+          "gen_right": "0196_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0197",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk7",
+        "files": {
+          "rgb": "0197_rgb.mp4",
+          "gt_left": "0197_gt_left.mp4",
+          "gen_left": "0197_gen_left.mp4",
+          "gt_right": "0197_gt_right.mp4",
+          "gen_right": "0197_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0198",
+        "name": "Retail_open_package_bag_20260321_213237_166_chunk8",
+        "files": {
+          "rgb": "0198_rgb.mp4",
+          "gt_left": "0198_gt_left.mp4",
+          "gen_left": "0198_gen_left.mp4",
+          "gt_right": "0198_gt_right.mp4",
+          "gen_right": "0198_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0199",
+        "name": "Retail_open_package_bag_20260321_213418_285_chunk0",
+        "files": {
+          "rgb": "0199_rgb.mp4",
+          "gt_left": "0199_gt_left.mp4",
+          "gen_left": "0199_gen_left.mp4",
+          "gt_right": "0199_gt_right.mp4",
+          "gen_right": "0199_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0200",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk0",
+        "files": {
+          "rgb": "0200_rgb.mp4",
+          "gt_left": "0200_gt_left.mp4",
+          "gen_left": "0200_gen_left.mp4",
+          "gt_right": "0200_gt_right.mp4",
+          "gen_right": "0200_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0201",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk1",
+        "files": {
+          "rgb": "0201_rgb.mp4",
+          "gt_left": "0201_gt_left.mp4",
+          "gen_left": "0201_gen_left.mp4",
+          "gt_right": "0201_gt_right.mp4",
+          "gen_right": "0201_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0202",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk2",
+        "files": {
+          "rgb": "0202_rgb.mp4",
+          "gt_left": "0202_gt_left.mp4",
+          "gen_left": "0202_gen_left.mp4",
+          "gt_right": "0202_gt_right.mp4",
+          "gen_right": "0202_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0203",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk3",
+        "files": {
+          "rgb": "0203_rgb.mp4",
+          "gt_left": "0203_gt_left.mp4",
+          "gen_left": "0203_gen_left.mp4",
+          "gt_right": "0203_gt_right.mp4",
+          "gen_right": "0203_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0204",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk4",
+        "files": {
+          "rgb": "0204_rgb.mp4",
+          "gt_left": "0204_gt_left.mp4",
+          "gen_left": "0204_gen_left.mp4",
+          "gt_right": "0204_gt_right.mp4",
+          "gen_right": "0204_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0205",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk5",
+        "files": {
+          "rgb": "0205_rgb.mp4",
+          "gt_left": "0205_gt_left.mp4",
+          "gen_left": "0205_gen_left.mp4",
+          "gt_right": "0205_gt_right.mp4",
+          "gen_right": "0205_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0206",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk6",
+        "files": {
+          "rgb": "0206_rgb.mp4",
+          "gt_left": "0206_gt_left.mp4",
+          "gen_left": "0206_gen_left.mp4",
+          "gt_right": "0206_gt_right.mp4",
+          "gen_right": "0206_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0207",
+        "name": "Retail_open_package_bag_20260321_213605_251_chunk7",
+        "files": {
+          "rgb": "0207_rgb.mp4",
+          "gt_left": "0207_gt_left.mp4",
+          "gen_left": "0207_gen_left.mp4",
+          "gt_right": "0207_gt_right.mp4",
+          "gen_right": "0207_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0208",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk0",
+        "files": {
+          "rgb": "0208_rgb.mp4",
+          "gt_left": "0208_gt_left.mp4",
+          "gen_left": "0208_gen_left.mp4",
+          "gt_right": "0208_gt_right.mp4",
+          "gen_right": "0208_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0209",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk1",
+        "files": {
+          "rgb": "0209_rgb.mp4",
+          "gt_left": "0209_gt_left.mp4",
+          "gen_left": "0209_gen_left.mp4",
+          "gt_right": "0209_gt_right.mp4",
+          "gen_right": "0209_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0210",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk2",
+        "files": {
+          "rgb": "0210_rgb.mp4",
+          "gt_left": "0210_gt_left.mp4",
+          "gen_left": "0210_gen_left.mp4",
+          "gt_right": "0210_gt_right.mp4",
+          "gen_right": "0210_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0211",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk3",
+        "files": {
+          "rgb": "0211_rgb.mp4",
+          "gt_left": "0211_gt_left.mp4",
+          "gen_left": "0211_gen_left.mp4",
+          "gt_right": "0211_gt_right.mp4",
+          "gen_right": "0211_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0212",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk4",
+        "files": {
+          "rgb": "0212_rgb.mp4",
+          "gt_left": "0212_gt_left.mp4",
+          "gen_left": "0212_gen_left.mp4",
+          "gt_right": "0212_gt_right.mp4",
+          "gen_right": "0212_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0213",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk5",
+        "files": {
+          "rgb": "0213_rgb.mp4",
+          "gt_left": "0213_gt_left.mp4",
+          "gen_left": "0213_gen_left.mp4",
+          "gt_right": "0213_gt_right.mp4",
+          "gen_right": "0213_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0214",
+        "name": "Retail_open_package_bag_20260321_213710_444_chunk6",
+        "files": {
+          "rgb": "0214_rgb.mp4",
+          "gt_left": "0214_gt_left.mp4",
+          "gen_left": "0214_gen_left.mp4",
+          "gt_right": "0214_gt_right.mp4",
+          "gen_right": "0214_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0215",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk0",
+        "files": {
+          "rgb": "0215_rgb.mp4",
+          "gt_left": "0215_gt_left.mp4",
+          "gen_left": "0215_gen_left.mp4",
+          "gt_right": "0215_gt_right.mp4",
+          "gen_right": "0215_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0216",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk1",
+        "files": {
+          "rgb": "0216_rgb.mp4",
+          "gt_left": "0216_gt_left.mp4",
+          "gen_left": "0216_gen_left.mp4",
+          "gt_right": "0216_gt_right.mp4",
+          "gen_right": "0216_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0217",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk2",
+        "files": {
+          "rgb": "0217_rgb.mp4",
+          "gt_left": "0217_gt_left.mp4",
+          "gen_left": "0217_gen_left.mp4",
+          "gt_right": "0217_gt_right.mp4",
+          "gen_right": "0217_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0218",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk3",
+        "files": {
+          "rgb": "0218_rgb.mp4",
+          "gt_left": "0218_gt_left.mp4",
+          "gen_left": "0218_gen_left.mp4",
+          "gt_right": "0218_gt_right.mp4",
+          "gen_right": "0218_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0219",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk4",
+        "files": {
+          "rgb": "0219_rgb.mp4",
+          "gt_left": "0219_gt_left.mp4",
+          "gen_left": "0219_gen_left.mp4",
+          "gt_right": "0219_gt_right.mp4",
+          "gen_right": "0219_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0220",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk5",
+        "files": {
+          "rgb": "0220_rgb.mp4",
+          "gt_left": "0220_gt_left.mp4",
+          "gen_left": "0220_gen_left.mp4",
+          "gt_right": "0220_gt_right.mp4",
+          "gen_right": "0220_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0221",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk6",
+        "files": {
+          "rgb": "0221_rgb.mp4",
+          "gt_left": "0221_gt_left.mp4",
+          "gen_left": "0221_gen_left.mp4",
+          "gt_right": "0221_gt_right.mp4",
+          "gen_right": "0221_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0222",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk7",
+        "files": {
+          "rgb": "0222_rgb.mp4",
+          "gt_left": "0222_gt_left.mp4",
+          "gen_left": "0222_gen_left.mp4",
+          "gt_right": "0222_gt_right.mp4",
+          "gen_right": "0222_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0223",
+        "name": "Retail_open_package_bag_20260321_213836_117_chunk8",
+        "files": {
+          "rgb": "0223_rgb.mp4",
+          "gt_left": "0223_gt_left.mp4",
+          "gen_left": "0223_gen_left.mp4",
+          "gt_right": "0223_gt_right.mp4",
+          "gen_right": "0223_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0224",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk0",
+        "files": {
+          "rgb": "0224_rgb.mp4",
+          "gt_left": "0224_gt_left.mp4",
+          "gen_left": "0224_gen_left.mp4",
+          "gt_right": "0224_gt_right.mp4",
+          "gen_right": "0224_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0225",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk1",
+        "files": {
+          "rgb": "0225_rgb.mp4",
+          "gt_left": "0225_gt_left.mp4",
+          "gen_left": "0225_gen_left.mp4",
+          "gt_right": "0225_gt_right.mp4",
+          "gen_right": "0225_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0226",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk2",
+        "files": {
+          "rgb": "0226_rgb.mp4",
+          "gt_left": "0226_gt_left.mp4",
+          "gen_left": "0226_gen_left.mp4",
+          "gt_right": "0226_gt_right.mp4",
+          "gen_right": "0226_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0227",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk3",
+        "files": {
+          "rgb": "0227_rgb.mp4",
+          "gt_left": "0227_gt_left.mp4",
+          "gen_left": "0227_gen_left.mp4",
+          "gt_right": "0227_gt_right.mp4",
+          "gen_right": "0227_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0228",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk4",
+        "files": {
+          "rgb": "0228_rgb.mp4",
+          "gt_left": "0228_gt_left.mp4",
+          "gen_left": "0228_gen_left.mp4",
+          "gt_right": "0228_gt_right.mp4",
+          "gen_right": "0228_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0229",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk5",
+        "files": {
+          "rgb": "0229_rgb.mp4",
+          "gt_left": "0229_gt_left.mp4",
+          "gen_left": "0229_gen_left.mp4",
+          "gt_right": "0229_gt_right.mp4",
+          "gen_right": "0229_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0230",
+        "name": "Retail_open_package_bag_20260321_213930_745_chunk6",
+        "files": {
+          "rgb": "0230_rgb.mp4",
+          "gt_left": "0230_gt_left.mp4",
+          "gen_left": "0230_gen_left.mp4",
+          "gt_right": "0230_gt_right.mp4",
+          "gen_right": "0230_gen_right.mp4"
+        }
+      }
+    ]
+  },
+  "opentouch_tactileonly": {
+    "title": "OpenTouch (tactile-only)",
+    "hands": [
+      "right"
+    ],
+    "clips": [
+      {
+        "idx": "0000",
+        "name": "office_ml_p2_demo_232",
+        "files": {
+          "rgb": "0000_rgb.mp4",
+          "gt_right": "0000_gt_right.mp4",
+          "gen_right": "0000_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0001",
+        "name": "office_ml_p2_demo_263",
+        "files": {
+          "rgb": "0001_rgb.mp4",
+          "gt_right": "0001_gt_right.mp4",
+          "gen_right": "0001_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0002",
+        "name": "office_ml_p2_demo_258",
+        "files": {
+          "rgb": "0002_rgb.mp4",
+          "gt_right": "0002_gt_right.mp4",
+          "gen_right": "0002_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0003",
+        "name": "office_ml_p2_demo_247",
+        "files": {
+          "rgb": "0003_rgb.mp4",
+          "gt_right": "0003_gt_right.mp4",
+          "gen_right": "0003_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0004",
+        "name": "office_ml_p2_demo_184",
+        "files": {
+          "rgb": "0004_rgb.mp4",
+          "gt_right": "0004_gt_right.mp4",
+          "gen_right": "0004_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0005",
+        "name": "office_ml_p2_demo_260",
+        "files": {
+          "rgb": "0005_rgb.mp4",
+          "gt_right": "0005_gt_right.mp4",
+          "gen_right": "0005_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0006",
+        "name": "office_ml_p2_demo_234",
+        "files": {
+          "rgb": "0006_rgb.mp4",
+          "gt_right": "0006_gt_right.mp4",
+          "gen_right": "0006_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0007",
+        "name": "office_ml_p2_demo_198",
+        "files": {
+          "rgb": "0007_rgb.mp4",
+          "gt_right": "0007_gt_right.mp4",
+          "gen_right": "0007_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0008",
+        "name": "office_ml_p2_demo_200",
+        "files": {
+          "rgb": "0008_rgb.mp4",
+          "gt_right": "0008_gt_right.mp4",
+          "gen_right": "0008_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0009",
+        "name": "office_ml_p2_demo_229",
+        "files": {
+          "rgb": "0009_rgb.mp4",
+          "gt_right": "0009_gt_right.mp4",
+          "gen_right": "0009_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0010",
+        "name": "sports_dicks_p1_demo_035",
+        "files": {
+          "rgb": "0010_rgb.mp4",
+          "gt_right": "0010_gt_right.mp4",
+          "gen_right": "0010_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0011",
+        "name": "sports_dicks_p1_demo_063",
+        "files": {
+          "rgb": "0011_rgb.mp4",
+          "gt_right": "0011_gt_right.mp4",
+          "gen_right": "0011_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0012",
+        "name": "sports_dicks_p1_demo_073",
+        "files": {
+          "rgb": "0012_rgb.mp4",
+          "gt_right": "0012_gt_right.mp4",
+          "gen_right": "0012_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0013",
+        "name": "sports_dicks_p1_demo_065",
+        "files": {
+          "rgb": "0013_rgb.mp4",
+          "gt_right": "0013_gt_right.mp4",
+          "gen_right": "0013_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0014",
+        "name": "sports_dicks_p1_demo_023",
+        "files": {
+          "rgb": "0014_rgb.mp4",
+          "gt_right": "0014_gt_right.mp4",
+          "gen_right": "0014_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0015",
+        "name": "sports_dicks_p2_demo_085",
+        "files": {
+          "rgb": "0015_rgb.mp4",
+          "gt_right": "0015_gt_right.mp4",
+          "gen_right": "0015_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0016",
+        "name": "sports_dicks_p2_demo_072",
+        "files": {
+          "rgb": "0016_rgb.mp4",
+          "gt_right": "0016_gt_right.mp4",
+          "gen_right": "0016_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0017",
+        "name": "sports_dicks_p2_demo_073",
+        "files": {
+          "rgb": "0017_rgb.mp4",
+          "gt_right": "0017_gt_right.mp4",
+          "gen_right": "0017_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0018",
+        "name": "sports_dicks_p1_demo_042",
+        "files": {
+          "rgb": "0018_rgb.mp4",
+          "gt_right": "0018_gt_right.mp4",
+          "gen_right": "0018_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0019",
+        "name": "sports_dicks_p2_demo_023",
+        "files": {
+          "rgb": "0019_rgb.mp4",
+          "gt_right": "0019_gt_right.mp4",
+          "gen_right": "0019_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0020",
+        "name": "sports_dicks_p2_demo_013",
+        "files": {
+          "rgb": "0020_rgb.mp4",
+          "gt_right": "0020_gt_right.mp4",
+          "gen_right": "0020_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0021",
+        "name": "sports_dicks_p2_demo_048",
+        "files": {
+          "rgb": "0021_rgb.mp4",
+          "gt_right": "0021_gt_right.mp4",
+          "gen_right": "0021_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0022",
+        "name": "sports_dicks_p2_demo_071",
+        "files": {
+          "rgb": "0022_rgb.mp4",
+          "gt_right": "0022_gt_right.mp4",
+          "gen_right": "0022_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0023",
+        "name": "sports_dicks_p1_demo_009",
+        "files": {
+          "rgb": "0023_rgb.mp4",
+          "gt_right": "0023_gt_right.mp4",
+          "gen_right": "0023_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0024",
+        "name": "sports_dicks_p1_demo_104",
+        "files": {
+          "rgb": "0024_rgb.mp4",
+          "gt_right": "0024_gt_right.mp4",
+          "gen_right": "0024_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0025",
+        "name": "sports_dicks_p1_demo_062",
+        "files": {
+          "rgb": "0025_rgb.mp4",
+          "gt_right": "0025_gt_right.mp4",
+          "gen_right": "0025_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0026",
+        "name": "sports_dicks_p1_demo_102",
+        "files": {
+          "rgb": "0026_rgb.mp4",
+          "gt_right": "0026_gt_right.mp4",
+          "gen_right": "0026_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0027",
+        "name": "sports_dicks_p1_demo_029",
+        "files": {
+          "rgb": "0027_rgb.mp4",
+          "gt_right": "0027_gt_right.mp4",
+          "gen_right": "0027_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0028",
+        "name": "sports_dicks_p2_demo_022",
+        "files": {
+          "rgb": "0028_rgb.mp4",
+          "gt_right": "0028_gt_right.mp4",
+          "gen_right": "0028_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0029",
+        "name": "sports_dicks_p1_demo_082",
+        "files": {
+          "rgb": "0029_rgb.mp4",
+          "gt_right": "0029_gt_right.mp4",
+          "gen_right": "0029_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0030",
+        "name": "sports_dicks_p1_demo_004",
+        "files": {
+          "rgb": "0030_rgb.mp4",
+          "gt_right": "0030_gt_right.mp4",
+          "gen_right": "0030_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0031",
+        "name": "sports_dicks_p2_demo_024",
+        "files": {
+          "rgb": "0031_rgb.mp4",
+          "gt_right": "0031_gt_right.mp4",
+          "gen_right": "0031_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0032",
+        "name": "sports_dicks_p2_demo_011",
+        "files": {
+          "rgb": "0032_rgb.mp4",
+          "gt_right": "0032_gt_right.mp4",
+          "gen_right": "0032_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0033",
+        "name": "sports_dicks_p2_demo_080",
+        "files": {
+          "rgb": "0033_rgb.mp4",
+          "gt_right": "0033_gt_right.mp4",
+          "gen_right": "0033_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0034",
+        "name": "sports_dicks_p2_demo_005",
+        "files": {
+          "rgb": "0034_rgb.mp4",
+          "gt_right": "0034_gt_right.mp4",
+          "gen_right": "0034_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0035",
+        "name": "sports_dicks_p2_demo_058",
+        "files": {
+          "rgb": "0035_rgb.mp4",
+          "gt_right": "0035_gt_right.mp4",
+          "gen_right": "0035_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0036",
+        "name": "sports_dicks_p1_demo_071",
+        "files": {
+          "rgb": "0036_rgb.mp4",
+          "gt_right": "0036_gt_right.mp4",
+          "gen_right": "0036_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0037",
+        "name": "sports_dicks_p1_demo_099",
+        "files": {
+          "rgb": "0037_rgb.mp4",
+          "gt_right": "0037_gt_right.mp4",
+          "gen_right": "0037_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0038",
+        "name": "sports_dicks_p1_demo_047",
+        "files": {
+          "rgb": "0038_rgb.mp4",
+          "gt_right": "0038_gt_right.mp4",
+          "gen_right": "0038_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0039",
+        "name": "sports_dicks_p1_demo_080",
+        "files": {
+          "rgb": "0039_rgb.mp4",
+          "gt_right": "0039_gt_right.mp4",
+          "gen_right": "0039_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0040",
+        "name": "sports_dicks_p2_demo_093",
+        "files": {
+          "rgb": "0040_rgb.mp4",
+          "gt_right": "0040_gt_right.mp4",
+          "gen_right": "0040_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0041",
+        "name": "sports_dicks_p2_demo_036",
+        "files": {
+          "rgb": "0041_rgb.mp4",
+          "gt_right": "0041_gt_right.mp4",
+          "gen_right": "0041_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0042",
+        "name": "sports_dicks_p2_demo_083",
+        "files": {
+          "rgb": "0042_rgb.mp4",
+          "gt_right": "0042_gt_right.mp4",
+          "gen_right": "0042_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0043",
+        "name": "sports_dicks_p1_demo_050",
+        "files": {
+          "rgb": "0043_rgb.mp4",
+          "gt_right": "0043_gt_right.mp4",
+          "gen_right": "0043_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0044",
+        "name": "sports_dicks_p1_demo_052",
+        "files": {
+          "rgb": "0044_rgb.mp4",
+          "gt_right": "0044_gt_right.mp4",
+          "gen_right": "0044_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0045",
+        "name": "sports_dicks_p1_demo_017",
+        "files": {
+          "rgb": "0045_rgb.mp4",
+          "gt_right": "0045_gt_right.mp4",
+          "gen_right": "0045_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0046",
+        "name": "sports_dicks_p2_demo_101",
+        "files": {
+          "rgb": "0046_rgb.mp4",
+          "gt_right": "0046_gt_right.mp4",
+          "gen_right": "0046_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0047",
+        "name": "sports_dicks_p1_demo_089",
+        "files": {
+          "rgb": "0047_rgb.mp4",
+          "gt_right": "0047_gt_right.mp4",
+          "gen_right": "0047_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0048",
+        "name": "sports_dicks_p2_demo_110",
+        "files": {
+          "rgb": "0048_rgb.mp4",
+          "gt_right": "0048_gt_right.mp4",
+          "gen_right": "0048_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0049",
+        "name": "sports_dicks_p2_demo_053",
+        "files": {
+          "rgb": "0049_rgb.mp4",
+          "gt_right": "0049_gt_right.mp4",
+          "gen_right": "0049_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0050",
+        "name": "office_ml_p2_demo_212",
+        "files": {
+          "rgb": "0050_rgb.mp4",
+          "gt_right": "0050_gt_right.mp4",
+          "gen_right": "0050_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0051",
+        "name": "office_ml_p2_demo_217",
+        "files": {
+          "rgb": "0051_rgb.mp4",
+          "gt_right": "0051_gt_right.mp4",
+          "gen_right": "0051_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0052",
+        "name": "office_ml_p2_demo_205",
+        "files": {
+          "rgb": "0052_rgb.mp4",
+          "gt_right": "0052_gt_right.mp4",
+          "gen_right": "0052_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0053",
+        "name": "office_ml_p2_demo_269",
+        "files": {
+          "rgb": "0053_rgb.mp4",
+          "gt_right": "0053_gt_right.mp4",
+          "gen_right": "0053_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0054",
+        "name": "office_ml_p2_demo_215",
+        "files": {
+          "rgb": "0054_rgb.mp4",
+          "gt_right": "0054_gt_right.mp4",
+          "gen_right": "0054_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0055",
+        "name": "office_ml_p2_demo_257",
+        "files": {
+          "rgb": "0055_rgb.mp4",
+          "gt_right": "0055_gt_right.mp4",
+          "gen_right": "0055_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0056",
+        "name": "office_ml_p2_demo_218",
+        "files": {
+          "rgb": "0056_rgb.mp4",
+          "gt_right": "0056_gt_right.mp4",
+          "gen_right": "0056_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0057",
+        "name": "office_ml_p2_demo_246",
+        "files": {
+          "rgb": "0057_rgb.mp4",
+          "gt_right": "0057_gt_right.mp4",
+          "gen_right": "0057_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0058",
+        "name": "office_ml_p2_demo_244",
+        "files": {
+          "rgb": "0058_rgb.mp4",
+          "gt_right": "0058_gt_right.mp4",
+          "gen_right": "0058_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0059",
+        "name": "sports_dicks_p1_demo_012",
+        "files": {
+          "rgb": "0059_rgb.mp4",
+          "gt_right": "0059_gt_right.mp4",
+          "gen_right": "0059_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0060",
+        "name": "sports_dicks_p1_demo_079",
+        "files": {
+          "rgb": "0060_rgb.mp4",
+          "gt_right": "0060_gt_right.mp4",
+          "gen_right": "0060_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0061",
+        "name": "sports_dicks_p1_demo_094",
+        "files": {
+          "rgb": "0061_rgb.mp4",
+          "gt_right": "0061_gt_right.mp4",
+          "gen_right": "0061_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0062",
+        "name": "sports_dicks_p2_demo_120",
+        "files": {
+          "rgb": "0062_rgb.mp4",
+          "gt_right": "0062_gt_right.mp4",
+          "gen_right": "0062_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0063",
+        "name": "sports_dicks_p2_demo_041",
+        "files": {
+          "rgb": "0063_rgb.mp4",
+          "gt_right": "0063_gt_right.mp4",
+          "gen_right": "0063_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0064",
+        "name": "sports_dicks_p1_demo_040",
+        "files": {
+          "rgb": "0064_rgb.mp4",
+          "gt_right": "0064_gt_right.mp4",
+          "gen_right": "0064_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0065",
+        "name": "sports_dicks_p1_demo_101",
+        "files": {
+          "rgb": "0065_rgb.mp4",
+          "gt_right": "0065_gt_right.mp4",
+          "gen_right": "0065_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0066",
+        "name": "sports_dicks_p2_demo_108",
+        "files": {
+          "rgb": "0066_rgb.mp4",
+          "gt_right": "0066_gt_right.mp4",
+          "gen_right": "0066_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0067",
+        "name": "sports_dicks_p1_demo_011",
+        "files": {
+          "rgb": "0067_rgb.mp4",
+          "gt_right": "0067_gt_right.mp4",
+          "gen_right": "0067_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0068",
+        "name": "sports_dicks_p2_demo_066",
+        "files": {
+          "rgb": "0068_rgb.mp4",
+          "gt_right": "0068_gt_right.mp4",
+          "gen_right": "0068_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0069",
+        "name": "sports_dicks_p1_demo_053",
+        "files": {
+          "rgb": "0069_rgb.mp4",
+          "gt_right": "0069_gt_right.mp4",
+          "gen_right": "0069_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0070",
+        "name": "sports_dicks_p2_demo_021",
+        "files": {
+          "rgb": "0070_rgb.mp4",
+          "gt_right": "0070_gt_right.mp4",
+          "gen_right": "0070_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0071",
+        "name": "sports_dicks_p1_demo_041",
+        "files": {
+          "rgb": "0071_rgb.mp4",
+          "gt_right": "0071_gt_right.mp4",
+          "gen_right": "0071_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0072",
+        "name": "sports_dicks_p1_demo_060",
+        "files": {
+          "rgb": "0072_rgb.mp4",
+          "gt_right": "0072_gt_right.mp4",
+          "gen_right": "0072_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0073",
+        "name": "sports_dicks_p2_demo_109",
+        "files": {
+          "rgb": "0073_rgb.mp4",
+          "gt_right": "0073_gt_right.mp4",
+          "gen_right": "0073_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0074",
+        "name": "sports_dicks_p1_demo_087",
+        "files": {
+          "rgb": "0074_rgb.mp4",
+          "gt_right": "0074_gt_right.mp4",
+          "gen_right": "0074_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0075",
+        "name": "sports_dicks_p2_demo_123",
+        "files": {
+          "rgb": "0075_rgb.mp4",
+          "gt_right": "0075_gt_right.mp4",
+          "gen_right": "0075_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0076",
+        "name": "sports_dicks_p1_demo_001",
+        "files": {
+          "rgb": "0076_rgb.mp4",
+          "gt_right": "0076_gt_right.mp4",
+          "gen_right": "0076_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0077",
+        "name": "sports_dicks_p2_demo_099",
+        "files": {
+          "rgb": "0077_rgb.mp4",
+          "gt_right": "0077_gt_right.mp4",
+          "gen_right": "0077_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0078",
+        "name": "sports_dicks_p2_demo_111",
+        "files": {
+          "rgb": "0078_rgb.mp4",
+          "gt_right": "0078_gt_right.mp4",
+          "gen_right": "0078_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0079",
+        "name": "sports_dicks_p2_demo_033",
+        "files": {
+          "rgb": "0079_rgb.mp4",
+          "gt_right": "0079_gt_right.mp4",
+          "gen_right": "0079_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0080",
+        "name": "sports_dicks_p2_demo_035",
+        "files": {
+          "rgb": "0080_rgb.mp4",
+          "gt_right": "0080_gt_right.mp4",
+          "gen_right": "0080_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0081",
+        "name": "sports_dicks_p2_demo_102",
+        "files": {
+          "rgb": "0081_rgb.mp4",
+          "gt_right": "0081_gt_right.mp4",
+          "gen_right": "0081_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0082",
+        "name": "sports_dicks_p2_demo_034",
+        "files": {
+          "rgb": "0082_rgb.mp4",
+          "gt_right": "0082_gt_right.mp4",
+          "gen_right": "0082_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0083",
+        "name": "sports_dicks_p1_demo_030",
+        "files": {
+          "rgb": "0083_rgb.mp4",
+          "gt_right": "0083_gt_right.mp4",
+          "gen_right": "0083_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0084",
+        "name": "sports_dicks_p1_demo_018",
+        "files": {
+          "rgb": "0084_rgb.mp4",
+          "gt_right": "0084_gt_right.mp4",
+          "gen_right": "0084_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0085",
+        "name": "sports_dicks_p1_demo_092",
+        "files": {
+          "rgb": "0085_rgb.mp4",
+          "gt_right": "0085_gt_right.mp4",
+          "gen_right": "0085_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0086",
+        "name": "sports_dicks_p2_demo_078",
+        "files": {
+          "rgb": "0086_rgb.mp4",
+          "gt_right": "0086_gt_right.mp4",
+          "gen_right": "0086_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0087",
+        "name": "sports_dicks_p2_demo_047",
+        "files": {
+          "rgb": "0087_rgb.mp4",
+          "gt_right": "0087_gt_right.mp4",
+          "gen_right": "0087_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0088",
+        "name": "sports_dicks_p2_demo_060",
+        "files": {
+          "rgb": "0088_rgb.mp4",
+          "gt_right": "0088_gt_right.mp4",
+          "gen_right": "0088_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0089",
+        "name": "sports_dicks_p2_demo_091",
+        "files": {
+          "rgb": "0089_rgb.mp4",
+          "gt_right": "0089_gt_right.mp4",
+          "gen_right": "0089_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0090",
+        "name": "sports_dicks_p1_demo_072",
+        "files": {
+          "rgb": "0090_rgb.mp4",
+          "gt_right": "0090_gt_right.mp4",
+          "gen_right": "0090_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0091",
+        "name": "sports_dicks_p2_demo_004",
+        "files": {
+          "rgb": "0091_rgb.mp4",
+          "gt_right": "0091_gt_right.mp4",
+          "gen_right": "0091_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0092",
+        "name": "sports_dicks_p2_demo_046",
+        "files": {
+          "rgb": "0092_rgb.mp4",
+          "gt_right": "0092_gt_right.mp4",
+          "gen_right": "0092_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0093",
+        "name": "sports_dicks_p2_demo_016",
+        "files": {
+          "rgb": "0093_rgb.mp4",
+          "gt_right": "0093_gt_right.mp4",
+          "gen_right": "0093_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0094",
+        "name": "sports_dicks_p2_demo_121",
+        "files": {
+          "rgb": "0094_rgb.mp4",
+          "gt_right": "0094_gt_right.mp4",
+          "gen_right": "0094_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0095",
+        "name": "sports_dicks_p2_demo_092",
+        "files": {
+          "rgb": "0095_rgb.mp4",
+          "gt_right": "0095_gt_right.mp4",
+          "gen_right": "0095_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0096",
+        "name": "sports_dicks_p2_demo_059",
+        "files": {
+          "rgb": "0096_rgb.mp4",
+          "gt_right": "0096_gt_right.mp4",
+          "gen_right": "0096_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0097",
+        "name": "sports_dicks_p2_demo_010",
+        "files": {
+          "rgb": "0097_rgb.mp4",
+          "gt_right": "0097_gt_right.mp4",
+          "gen_right": "0097_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0098",
+        "name": "sports_dicks_p1_demo_024",
+        "files": {
+          "rgb": "0098_rgb.mp4",
+          "gt_right": "0098_gt_right.mp4",
+          "gen_right": "0098_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0099",
+        "name": "sports_dicks_p1_demo_032",
+        "files": {
+          "rgb": "0099_rgb.mp4",
+          "gt_right": "0099_gt_right.mp4",
+          "gen_right": "0099_gen_right.mp4"
+        }
+      },
+      {
+        "idx": "0100",
+        "name": "sports_dicks_p2_demo_002",
+        "files": {
+          "rgb": "0100_rgb.mp4",
+          "gt_right": "0100_gt_right.mp4",
+          "gen_right": "0100_gen_right.mp4"
+        }
+      }
+    ]
+  }
+}
