@@ -37,17 +37,15 @@ async function main() {
 
   function playGroup(group) {
     if (document.visibilityState !== 'visible') return;
-    group.syncing = true;
+    group.playing = true;
     for (const video of group.videos) {
-      video.play().catch(() => pauseGroup(group));
+      video.play().catch(() => {});
     }
-    group.syncing = false;
   }
 
   function pauseGroup(group) {
-    group.syncing = true;
+    group.playing = false;
     group.videos.forEach(video => video.pause());
-    group.syncing = false;
   }
 
   const observer = new IntersectionObserver(entries => {
@@ -57,7 +55,7 @@ async function main() {
       if (group.visible) playGroup(group);
       else pauseGroup(group);
     }
-  }, { threshold: 0.25 });
+  }, { threshold: 0.01 });
 
   document.addEventListener('visibilitychange', () => {
     grid.querySelectorAll('.card').forEach(card => {
@@ -96,14 +94,17 @@ async function main() {
         row.appendChild(vidBlock(`Tactile GT ${label2}`, `videos/${key}/${clip.files['gt_' + hand]}`));
         card.appendChild(row);
       }
-      const group = { videos: [...card.querySelectorAll('video')], visible: false, syncing: false };
+      const group = { videos: [...card.querySelectorAll('video')], visible: false, playing: false, syncing: false };
       groups.set(card, group);
       for (const video of group.videos) {
         video.addEventListener('play', () => {
-          if (!group.syncing) playGroup(group);
+          if (!video.paused && !group.playing && group.visible) playGroup(group);
         });
         video.addEventListener('pause', () => {
-          if (!group.syncing) pauseGroup(group);
+          if (video.paused && group.playing) pauseGroup(group);
+        });
+        video.addEventListener('canplay', () => {
+          if (group.playing && video.paused) video.play().catch(() => {});
         });
         video.addEventListener('seeking', () => {
           if (group.syncing) return;
