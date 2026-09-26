@@ -89,6 +89,10 @@ def main():
     import json
     with open(f"{SITE_DIR}/manifest.json", "w") as f:
         json.dump(manifest, f, indent=2)
+    with open(f"{SITE_DIR}/manifest.js", "w") as f:
+        f.write("window.GALLERY_MANIFEST = ")
+        json.dump(manifest, f)
+        f.write(";\n")
     print(f"wrote manifest with {sum(len(c['clips']) for c in manifest.values())} clips")
 
 

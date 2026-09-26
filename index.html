@@ -17,6 +17,7 @@
   .vid-block { text-align: center; }
   .vid-block span { display: block; font-size: 11px; color: #777; margin-bottom: 2px; }
   video { width: 130px; height: 130px; background: #000; border-radius: 4px; }
+  .load-more { grid-column: 1 / -1; text-align: center; padding: 16px; color: #666; }
   .hidden { display: none; }
 </style>
 </head>
@@ -26,14 +27,16 @@
   <div class="tabs" id="tabs"></div>
   <div class="grid" id="grid"></div>
 
+<script src="manifest.js"></script>
 <script>
 async function main() {
-  const manifest = await (await fetch('manifest.json')).json();
+  const manifest = window.GALLERY_MANIFEST;
   const tabs = document.getElementById('tabs');
   const grid = document.getElementById('grid');
   const subtitle = document.getElementById('subtitle');
   const keys = Object.keys(manifest);
   const groups = new WeakMap();
+  let loadObserver;
 
   function playGroup(group) {
     if (document.visibilityState !== 'visible') return;
@@ -52,8 +55,20 @@ async function main() {
     for (const entry of entries) {
       const group = groups.get(entry.target);
       group.visible = entry.isIntersecting;
-      if (group.visible) playGroup(group);
-      else pauseGroup(group);
+      if (group.visible) {
+        group.videos.forEach(video => {
+          if (!video.hasAttribute('src')) video.src = video.dataset.src;
+        });
+        playGroup(group);
+      } else {
+        pauseGroup(group);
+        group.videos.forEach(video => {
+          if (video.hasAttribute('src')) {
+            video.removeAttribute('src');
+            video.load();
+          }
+        });
+      }
     }
   }, { threshold: 0.01 });
 
@@ -68,12 +83,20 @@ async function main() {
   function render(key) {
     const cfg = manifest[key];
     subtitle.textContent = `${cfg.title} — ${cfg.clips.length} clips`;
+    if (loadObserver) loadObserver.disconnect();
     grid.querySelectorAll('.card').forEach(card => {
       observer.unobserve(card);
       pauseGroup(groups.get(card));
     });
     grid.innerHTML = '';
-    for (const clip of cfg.clips) {
+    const sentinel = document.createElement('div');
+    sentinel.className = 'load-more';
+    sentinel.textContent = 'Loading more clips…';
+    grid.appendChild(sentinel);
+    let nextClip = 0;
+
+    function appendNext() {
+      for (const clip of cfg.clips.slice(nextClip, nextClip + 12)) {
       const card = document.createElement('div');
       card.className = 'card';
 
@@ -125,9 +148,25 @@ async function main() {
           group.syncing = false;
         });
       }
-      grid.appendChild(card);
+      grid.insertBefore(card, sentinel);
       observer.observe(card);
+      }
+      nextClip = Math.min(nextClip + 12, cfg.clips.length);
+      if (nextClip === cfg.clips.length) {
+        batchObserver.disconnect();
+        sentinel.remove();
+      }
     }
+    const batchObserver = new IntersectionObserver(entries => {
+      if (!sentinel.isConnected) return;
+      if (!entries.some(entry => entry.isIntersecting)) return;
+      batchObserver.unobserve(sentinel);
+      appendNext();
+      if (sentinel.isConnected) batchObserver.observe(sentinel);
+    }, { rootMargin: '500px 0px' });
+    loadObserver = batchObserver;
+    appendNext();
+    if (sentinel.isConnected) batchObserver.observe(sentinel);
   }
 
   function vidBlock(labelText, src) {
@@ -136,7 +175,7 @@ async function main() {
     const span = document.createElement('span');
     span.textContent = labelText;
     const v = document.createElement('video');
-    v.src = src; v.controls = true; v.preload = 'none'; v.loop = true; v.muted = true; v.playsInline = true;
+    v.dataset.src = src; v.controls = true; v.preload = 'none'; v.loop = true; v.muted = true; v.playsInline = true;
     wrap.appendChild(span); wrap.appendChild(v);
     return wrap;
   }
