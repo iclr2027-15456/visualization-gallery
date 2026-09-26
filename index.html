@@ -39,15 +39,34 @@ async function main() {
   let loadObserver;
 
   function playGroup(group) {
-    if (document.visibilityState !== 'visible') return;
+    if (!group.visible || document.visibilityState !== 'visible') return;
     group.playing = true;
-    for (const video of group.videos) {
-      video.play().catch(() => {});
-    }
+    startReadyGroup(group);
+  }
+
+  function startReadyGroup(group) {
+    if (!group.playing || group.running || !group.videos.every(video => video.readyState >= 3 && !video.seeking)) return;
+    const position = Math.min(...group.videos.map(video => video.currentTime));
+    let aligned = true;
+    group.videos.forEach(video => {
+      if (Math.abs(video.currentTime - position) > 0.1) {
+        video.currentTime = position;
+        aligned = false;
+      }
+    });
+    if (!aligned) return;
+    group.running = true;
+    group.videos.forEach(video => video.play().catch(() => {
+      if (group.running) {
+        group.running = false;
+        group.videos.forEach(other => other.pause());
+      }
+    }));
   }
 
   function pauseGroup(group) {
     group.playing = false;
+    group.running = false;
     group.videos.forEach(video => video.pause());
   }
 
@@ -57,7 +76,11 @@ async function main() {
       group.visible = entry.isIntersecting;
       if (group.visible) {
         group.videos.forEach(video => {
-          if (!video.hasAttribute('src')) video.src = video.dataset.src;
+          if (!video.hasAttribute('src')) {
+            video.preload = 'auto';
+            video.src = video.dataset.src;
+            video.load();
+          }
         });
         playGroup(group);
       } else {
@@ -117,36 +140,37 @@ async function main() {
         row.appendChild(vidBlock(`Tactile GT ${label2}`, `videos/${key}/${clip.files['gt_' + hand]}`));
         card.appendChild(row);
       }
-      const group = { videos: [...card.querySelectorAll('video')], visible: false, playing: false, syncing: false };
+      const group = { videos: [...card.querySelectorAll('video')], visible: false, playing: false, running: false, syncing: false };
       groups.set(card, group);
       for (const video of group.videos) {
         video.addEventListener('play', () => {
-          if (!video.paused && !group.playing && group.visible) playGroup(group);
+          if (!video.paused && !group.playing && group.visible) {
+            video.pause();
+            playGroup(group);
+          }
         });
         video.addEventListener('pause', () => {
-          if (video.paused && group.playing) pauseGroup(group);
+          if (video.paused && group.running) pauseGroup(group);
         });
         video.addEventListener('canplay', () => {
-          if (group.playing && video.paused) video.play().catch(() => {});
+          startReadyGroup(group);
+        });
+        video.addEventListener('waiting', () => {
+          if (!group.running) return;
+          group.running = false;
+          group.videos.forEach(other => other.pause());
         });
         video.addEventListener('seeking', () => {
           if (group.syncing) return;
           group.syncing = true;
           group.videos.forEach(other => {
-            if (other !== video && other.readyState >= 1) other.currentTime = video.currentTime;
-          });
-          group.syncing = false;
-        });
-        video.addEventListener('timeupdate', () => {
-          if (group.syncing || video !== group.videos[0]) return;
-          group.syncing = true;
-          group.videos.slice(1).forEach(other => {
-            if (other.readyState >= 1 && Math.abs(other.currentTime - video.currentTime) > 0.25) {
+            if (other !== video && other.readyState >= 1 && Math.abs(other.currentTime - video.currentTime) > 0.1) {
               other.currentTime = video.currentTime;
             }
           });
           group.syncing = false;
         });
+        video.addEventListener('seeked', () => startReadyGroup(group));
       }
       grid.insertBefore(card, sentinel);
       observer.observe(card);
