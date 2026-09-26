@@ -33,32 +33,46 @@ async function main() {
   const grid = document.getElementById('grid');
   const subtitle = document.getElementById('subtitle');
   const keys = Object.keys(manifest);
+  const groups = new WeakMap();
+
+  function playGroup(group) {
+    if (document.visibilityState !== 'visible') return;
+    group.syncing = true;
+    for (const video of group.videos) {
+      video.play().catch(() => pauseGroup(group));
+    }
+    group.syncing = false;
+  }
+
+  function pauseGroup(group) {
+    group.syncing = true;
+    group.videos.forEach(video => video.pause());
+    group.syncing = false;
+  }
+
   const observer = new IntersectionObserver(entries => {
     for (const entry of entries) {
-      const video = entry.target;
-      if (entry.isIntersecting && document.visibilityState === 'visible') {
-        video.play().catch(() => {});
-      } else {
-        video.pause();
-      }
+      const group = groups.get(entry.target);
+      group.visible = entry.isIntersecting;
+      if (group.visible) playGroup(group);
+      else pauseGroup(group);
     }
   }, { threshold: 0.25 });
 
   document.addEventListener('visibilitychange', () => {
-    grid.querySelectorAll('video').forEach(video => {
-      if (document.visibilityState === 'hidden') video.pause();
-      else if (video.getBoundingClientRect().bottom > 0 && video.getBoundingClientRect().top < innerHeight) {
-        video.play().catch(() => {});
-      }
+    grid.querySelectorAll('.card').forEach(card => {
+      const group = groups.get(card);
+      if (document.visibilityState === 'hidden') pauseGroup(group);
+      else if (group.visible) playGroup(group);
     });
   });
 
   function render(key) {
     const cfg = manifest[key];
     subtitle.textContent = `${cfg.title} — ${cfg.clips.length} clips`;
-    grid.querySelectorAll('video').forEach(video => {
-      observer.unobserve(video);
-      video.pause();
+    grid.querySelectorAll('.card').forEach(card => {
+      observer.unobserve(card);
+      pauseGroup(groups.get(card));
     });
     grid.innerHTML = '';
     for (const clip of cfg.clips) {
@@ -82,7 +96,36 @@ async function main() {
         row.appendChild(vidBlock(`Tactile GT ${label2}`, `videos/${key}/${clip.files['gt_' + hand]}`));
         card.appendChild(row);
       }
+      const group = { videos: [...card.querySelectorAll('video')], visible: false, syncing: false };
+      groups.set(card, group);
+      for (const video of group.videos) {
+        video.addEventListener('play', () => {
+          if (!group.syncing) playGroup(group);
+        });
+        video.addEventListener('pause', () => {
+          if (!group.syncing) pauseGroup(group);
+        });
+        video.addEventListener('seeking', () => {
+          if (group.syncing) return;
+          group.syncing = true;
+          group.videos.forEach(other => {
+            if (other !== video && other.readyState >= 1) other.currentTime = video.currentTime;
+          });
+          group.syncing = false;
+        });
+        video.addEventListener('timeupdate', () => {
+          if (group.syncing || video !== group.videos[0]) return;
+          group.syncing = true;
+          group.videos.slice(1).forEach(other => {
+            if (other.readyState >= 1 && Math.abs(other.currentTime - video.currentTime) > 0.25) {
+              other.currentTime = video.currentTime;
+            }
+          });
+          group.syncing = false;
+        });
+      }
       grid.appendChild(card);
+      observer.observe(card);
     }
   }
 
@@ -93,7 +136,6 @@ async function main() {
     span.textContent = labelText;
     const v = document.createElement('video');
     v.src = src; v.controls = true; v.preload = 'none'; v.loop = true; v.muted = true; v.playsInline = true;
-    observer.observe(v);
     wrap.appendChild(span); wrap.appendChild(v);
     return wrap;
   }
